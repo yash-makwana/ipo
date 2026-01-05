@@ -1,0 +1,20 @@
+{
+  "status": "processing",
+  "job_id": "3a742175-8fa2-438e-97a2-1bfe6fd26415",
+  "user_email": "local_user@localhost",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "regulation_type": "ICDR",
+  "use_multi_agent": true,
+  "initial_limit": 30,
+  "document_name": "tri_business.pdf",
+  "local_file_path": "uploads/3a742175-8fa2-438e-97a2-1bfe6fd26415/tri_business.pdf",
+  "created_at": "2026-01-03T14:23:40.822674+00:00",
+  "progress": "Processing with NSE-aligned orchestrator (IPO applicability filtering enabled)...",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "neo4j_chapters": [
+    "Chapter II"
+  ],
+  "mandatory_only": true,
+  "started_at": "2026-01-03T14:23:40.823495+00:00"
+}

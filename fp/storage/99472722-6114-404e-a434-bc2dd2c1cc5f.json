@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "job_id": "99472722-6114-404e-a434-bc2dd2c1cc5f",
+  "user_email": "local_user@localhost",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "regulation_type": "ICDR",
+  "use_multi_agent": true,
+  "initial_limit": 30,
+  "document_name": "tri_business.pdf",
+  "local_file_path": "uploads/99472722-6114-404e-a434-bc2dd2c1cc5f/tri_business.pdf",
+  "created_at": "2026-01-04T05:56:50.282521+00:00",
+  "progress": "Processing with NSE-aligned orchestrator (IPO applicability filtering enabled)...",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "neo4j_chapters": [
+    "Chapter II"
+  ],
+  "mandatory_only": true,
+  "started_at": "2026-01-04T05:56:50.283616+00:00",
+  "error": "'>=' not supported between instances of 'NoneType' and 'int'",
+  "error_traceback": "Traceback (most recent call last):\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/./main_local.py\", line 302, in process_compliance_check\n    result = multi_agent_orchestrator.check_drhp_compliance(\n        drhp_file_path=file_path,\n    ...<5 lines>...\n        output_format=\"structured\"\n    )\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/multi_agent_orchestrator.py\", line 286, in check_drhp_compliance\n    nse_queries = self._run_nse_content_review(\n        document_chunks=document_chunks,\n    ...<3 lines>...\n        drhp_file_path=drhp_file_path\n    )\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/multi_agent_orchestrator.py\", line 590, in _run_nse_content_review\n    entity_queries = self.entity_detector.detect_unnamed_entities(pages_dict)\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/unnamed_entity_detector.py\", line 83, in detect_unnamed_entities\n    entities = self._find_unnamed_entities(text, page_num)\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/unnamed_entity_detector.py\", line 129, in _find_unnamed_entities\n    location = match.group(1) if match.lastindex >= 1 else None\n                                 ^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'NoneType' and 'int'\n",
+  "completed_at": "2026-01-04T05:57:55.936084+00:00"
+}

@@ -1,0 +1,246 @@
+{
+  "summary": {
+    "files_evaluated": 20,
+    "expectation_stats": {
+      "revenue_disclosure_completeness": {
+        "triggered": 2,
+        "emitted": 0,
+        "missed": 2,
+        "miss_reasons": {
+          "satisfied_by_heuristic": 2
+        }
+      },
+      "revenue_disclosure_exclusions": {
+        "triggered": 10,
+        "emitted": 2,
+        "missed": 8,
+        "miss_reasons": {
+          "satisfied_by_heuristic": 8
+        }
+      },
+      "revenue_trends": {
+        "triggered": 19,
+        "emitted": 16,
+        "missed": 3,
+        "miss_reasons": {
+          "satisfied_by_heuristic": 3
+        }
+      },
+      "superlative_claims_source": {
+        "triggered": 14,
+        "emitted": 0,
+        "missed": 14,
+        "miss_reasons": {
+          "satisfied_by_heuristic": 14
+        }
+      },
+      "exclusivity_claims": {
+        "triggered": 11,
+        "emitted": 11,
+        "missed": 0,
+        "miss_reasons": {}
+      },
+      "revenue_disclosure_timeliness": {
+        "triggered": 19,
+        "emitted": 16,
+        "missed": 3,
+        "miss_reasons": {
+          "satisfied_by_heuristic": 3
+        }
+      },
+      "audited_financials_provided": {
+        "triggered": 13,
+        "emitted": 11,
+        "missed": 2,
+        "miss_reasons": {
+          "satisfied_by_heuristic": 2
+        }
+      },
+      "related_party_transactions_disclosure": {
+        "triggered": 11,
+        "emitted": 11,
+        "missed": 0,
+        "miss_reasons": {}
+      },
+      "material_risk_coverage": {
+        "triggered": 19,
+        "emitted": 19,
+        "missed": 0,
+        "miss_reasons": {}
+      }
+    },
+    "files": {
+      "Risk_factor.pdf": {
+        "products_count": 5,
+        "segments_count": 0,
+        "anomalies_count": 0,
+        "emitted_questions": [
+          "revenue_trends",
+          "revenue_disclosure_timeliness",
+          "related_party_transactions_disclosure",
+          "material_risk_coverage"
+        ],
+        "missed_questions": [
+          {
+            "expectation_id": "revenue_disclosure_exclusions",
+            "reason": "satisfied_by_heuristic",
+            "detail": "exclusion_phrase_present"
+          },
+          {
+            "expectation_id": "superlative_claims_source",
+            "reason": "satisfied_by_heuristic",
+            "detail": "evidence_reference_mention"
+          }
+        ]
+      },
+      "Eco_fuel_Systems_India_Limited_DRHP.pdf": {
+        "products_count": 0,
+        "segments_count": 0,
+        "anomalies_count": 0,
+        "emitted_questions": [
+          "revenue_trends",
+          "exclusivity_claims",
+          "revenue_disclosure_timeliness",
+          "audited_financials_provided",
+          "material_risk_coverage"
+        ],
+        "missed_questions": []
+      },
+      "Covering Letter & Brochure of AIBI (1).pdf": {
+        "products_count": 0,
+        "segments_count": 0,
+        "anomalies_count": 0,
+        "emitted_questions": [],
+        "missed_questions": []
+      },
+      "Smarten_ourbusiness.pdf": {
+        "products_count": 18,
+        "segments_count": 7,
+        "anomalies_count": 34,
+        "emitted_questions": [
+          "exclusivity_claims",
+          "audited_financials_provided",
+          "material_risk_coverage"
+        ],
+        "missed_questions": [
+          {
+            "expectation_id": "revenue_disclosure_completeness",
+            "reason": "satisfied_by_heuristic",
+            "detail": "page_map_revenue_tables"
+          },
+          {
+            "expectation_id": "revenue_trends",
+            "reason": "satisfied_by_heuristic",
+            "detail": "numeric_trends_present"
+          },
+          {
+            "expectation_id": "revenue_disclosure_timeliness",
+            "reason": "satisfied_by_heuristic",
+            "detail": "page_map_revenue_tables"
+          }
+        ]
+      },
+      "Finance.pdf": {
+        "products_count": 0,
+        "segments_count": 0,
+        "anomalies_count": 0,
+        "emitted_questions": [
+          "revenue_trends",
+          "revenue_disclosure_timeliness",
+          "related_party_transactions_disclosure",
+          "material_risk_coverage"
+        ],
+        "missed_questions": [
+          {
+            "expectation_id": "revenue_disclosure_exclusions",
+            "reason": "satisfied_by_heuristic",
+            "detail": "exclusion_phrase_present"
+          },
+          {
+            "expectation_id": "superlative_claims_source",
+            "reason": "satisfied_by_heuristic",
+            "detail": "evidence_reference_mention"
+          },
+          {
+            "expectation_id": "audited_financials_provided",
+            "reason": "satisfied_by_heuristic",
+            "detail": "audited_mentioned"
+          }
+        ]
+      },
+      "tri_business.pdf": {
+        "products_count": 3,
+        "segments_count": 7,
+        "anomalies_count": 0,
+        "emitted_questions": [
+          "revenue_trends",
+          "exclusivity_claims",
+          "revenue_disclosure_timeliness",
+          "audited_financials_provided",
+          "related_party_transactions_disclosure",
+          "material_risk_coverage"
+        ],
+        "missed_questions": [
+          {
+            "expectation_id": "superlative_claims_source",
+            "reason": "satisfied_by_heuristic",
+            "detail": "evidence_reference_mention"
+          }
+        ]
+      },
+      "our_business.pdf": {
+        "products_count": 9,
+        "segments_count": 0,
+        "anomalies_count": 0,
+        "emitted_questions": [
+          "revenue_disclosure_exclusions",
+          "revenue_trends",
+          "exclusivity_claims",
+          "revenue_disclosure_timeliness",
+          "audited_financials_provided",
+          "material_risk_coverage"
+        ],
+        "missed_questions": [
+          {
+            "expectation_id": "superlative_claims_source",
+            "reason": "satisfied_by_heuristic",
+            "detail": "evidence_reference_mention"
+          }
+        ]
+      },
+      "bheem_ourbusiness.pdf": {
+        "products_count": 9,
+        "segments_count": 1,
+        "anomalies_count": 1,
+        "emitted_questions": [
+          "exclusivity_claims",
+          "audited_financials_provided",
+          "material_risk_coverage"
+        ],
+        "missed_questions": [
+          {
+            "expectation_id": "revenue_trends",
+            "reason": "satisfied_by_heuristic",
+            "detail": "numeric_trends_present"
+          },
+          {
+            "expectation_id": "superlative_claims_source",
+            "reason": "satisfied_by_heuristic",
+            "detail": "evidence_reference_mention"
+          },
+          {
+            "expectation_id": "revenue_disclosure_timeliness",
+            "reason": "satisfied_by_heuristic",
+            "detail": "page_map_revenue_tables"
+          }
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "expectation_coverage_rate": 1.0,
+    "mean_missed_rate_for_triggered": 0.6367071524966261,
+    "files_evaluated": 20
+  },
+  "generated_at": 1767448300.990772
+}

@@ -1,0 +1,1837 @@
+{
+  "status": "completed",
+  "job_id": "70be722a-bbeb-4533-9598-f762c1a03305",
+  "user_email": "local_user@localhost",
+  "mode": "MULTI_AGENT_ADAPTIVE",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "our_business.pdf",
+  "total_requirements": 60,
+  "summary": {
+    "PRESENT": 0,
+    "INSUFFICIENT": 5,
+    "MISSING": 55,
+    "UNCLEAR": 0
+  },
+  "priority_summary": {
+    "CRITICAL": 7,
+    "HIGH": 48,
+    "MEDIUM": 0,
+    "LOW": 5
+  },
+  "items": [
+    {
+      "obligation": "the red-herring prospectus, and prospectus shall contain disclosures specified in the Companies Act, 2013",
+      "citation": "ICDR_2018 Chapter II Unit 24",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "INSUFFICIENT",
+      "explanation": "The DRHP acknowledges the requirement to include disclosures specified in the Companies Act, 2013 and Part A of Schedule VI. However, the provided snippets only show references to these requirements and do not contain the actual disclosures themselves. For instance, while 'Risk Factors' and 'Capacity and Capacity Utilization' are mentioned, the detailed content required by the Act and Schedule VI is not present in the provided text.",
+      "evidence": "Some of the information in the following discussion, including information with respect to our plans and strategies, contain forward-looking statements that involve risks and uncertainties. You should read \u201cForward Looking Statements\u201d on page for a discussion of the risks and uncertainties related to those statements. Our actual results may differ materially from those expressed in or implied by these forward-looking statements. Also read \u201cRisk Factors\u201d and \u201cManagement\u2019s Discussion \n\nCAPACITY AND CAPACITY UTILIZATION\nPlease find herein below the year wise installed capacity and its utilization details: FY 2023-2024 FY 2022-2\n\nDETAILS OF TOP FIVE/TEN CUSTOMERS\nTop five/ten customers of our Company for the period indicated on standalone basis is provided herein below: (\u20b9 in Lakhs, except stated in %)\nCategory of FY 2023-2024 FY 2022-2023 FY 2021-22 customers Amount % of total Amount % of total Amount % of total sales* sales* sales*\nTop 5 customers 2,846.75 46.74% 3,820.92 60.34% 2,612.57 54.96%\nTop 10 3,211.77 52.74% 4,281.80 67.62% 3,105.25 65.32%\ncustomers",
+      "missing_details": "Full disclosures as mandated by the Companies Act, 2013 and Part A of Schedule VI, including but not limited to, detailed financial statements, management discussion and analysis, risk factors, details of promoters, directors, objects of the issue, terms of the issue, and other material information.",
+      "confidence": 0.9,
+      "pages": [
+        1,
+        4,
+        6
+      ],
+      "priority": "LOW",
+      "recommendations": [
+        "\u26a0\ufe0f  ENHANCE: Current disclosure is incomplete",
+        "\ud83d\udccb Add the following: Full disclosures as mandated by the Companies Act, 2013 and Part A of Schedule VI, including but not limited to, detailed financial statements, management discussion and analysis, risk factors, details of promoters, directors, objects of the issue, terms of the issue, and other material information.",
+        "\ud83d\udcc4 Current content location: Pages 1, 4, 6"
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The abridged letter of offer shall contain the disclosures as specified by the Board in Part F of Schedule VI.",
+      "citation": "ICDR_2018 Chapter III Unit 75",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the disclosures specified in Part F of Schedule VI, which is a legal obligation for the abridged letter of offer. The content discusses business operations, forward-looking statements, and marketing channels, but none of these directly address the requirements of Part F.",
+      "evidence": "",
+      "missing_details": "Disclosures as specified by the Board in Part F of Schedule VI for the abridged letter of offer.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        23,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The abridged letter of offer shall contain the disclosures as specified by the Board in Part F of Schedule VI.",
+        "\ud83d\udccb Required details: Disclosures as specified by the Board in Part F of Schedule VI for the abridged letter of offer.",
+        "\ud83d\udcda Legal Reference: The abridged prospectus shall contain the disclosures as specified in Part E of Schedule VI and shall not contain any matter extraneous to the content..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "the red-herring prospectus, and prospectus shall contain disclosures specified in Part A of Schedule VI",
+      "citation": "ICDR_2018 Chapter II Unit 24",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "INSUFFICIENT",
+      "explanation": "The DRHP mentions forward-looking statements and risk factors, which are general disclosures. It also provides details on top customers and employee categories. However, it does not explicitly state that it contains disclosures specified in Part A of Schedule VI or the Companies Act, 2013, nor does it provide the specific content required by these regulations. Therefore, while some general disclosures are present, the specific requirements of Schedule VI and the Companies Act are not demonstrably met.",
+      "evidence": "Some of the information in the following discussion, including information with respect to our plans and strategies, contain forward-looking statements that involve risks and uncertainties. You should read \u201cForward Looking Statements\u201d on page for a discussion of the risks and uncertainties related to those statements. Our actual results may differ materially from those expressed in or implied by these forward-looking statements. Also read \u201cRisk Factors\u201d and \u201cManagement\u2019s Discussion \n\nTop five/ten customers of our Company for the period indicated on standalone basis is provided herein below:\n(\u20b9 in Lakhs, except stated in %)\nCategory of FY 2023-2024 FY 2022-2023 FY 2021-22\ncustomers Amount % of total Amount % of total Amount % of total\nsales* sales* sales*\nTop 5 customers 2,846.75 46.74% 3,820.92 60.34% 2,612.57 54.96%\nTop 10 3,211.77 52.74% 4,281.80 67.62% 3,105.25 65.32%\ncustomers\n* Based on standalone restated financials of Balaji Phosphate\n\nSr. No Category of Employees No. of Employees\n1 Accounts 05\n2 Office and Admin 06\n3 Marketing 12\n4 Plant 13\n5 Miscellaneous 04\nTotal 40",
+      "missing_details": "Specific disclosures required by Part A of Schedule VI (e.g., objects of the issue, capital structure, terms of the present issue, material contracts, statutory and other information, etc.), Specific disclosures required by the Companies Act, 2013 (e.g., details of promoters, directors, management, related party transactions, financial statements with notes, auditor's report, etc.)",
+      "confidence": 0.8,
+      "pages": [
+        1,
+        4,
+        23
+      ],
+      "priority": "LOW",
+      "recommendations": [
+        "\u26a0\ufe0f  ENHANCE: Current disclosure is incomplete",
+        "\ud83d\udccb Add the following: Specific disclosures required by Part A of Schedule VI (e.g., objects of the issue, capital structure, terms of the present issue, material contracts, statutory and other information, etc.), Specific disclosures required by the Companies Act, 2013 (e.g., details of promoters, directors, management, related party transactions, financial statements with notes, auditor's report, etc.)",
+        "\ud83d\udcc4 Current content location: Pages 1, 4, 23"
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall submit a statement certifying that all changes, suggestions and observations made by the Board have been incorporated in the offer document, a due diligence certificate as per Form C of Schedule V, a copy of the resolution passed by the board of directors of the issuer for allotting specified securities to promoter(s) towards amount received against promoters\u2019 contribution, a certificate from a statutory auditor certifying promoters\u2019 contribution, and a due diligence certificate as per Form D of Schedule V (if applicable), to the Board after issuance of observations by the Board or after expiry of the period stipulated in sub-regulation (4) if the Board has not issued observations.",
+      "citation": "ICDR_2018 Chapter II Unit 25",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the lead manager's submission of a statement certifying the incorporation of the Board's observations, a due diligence certificate as per Form C of Schedule V, a board resolution for promoter's contribution allotment, or a statutory auditor's certificate for promoters' contribution. These are post-observation submissions required from the lead manager.",
+      "evidence": "",
+      "missing_details": "Statement certifying incorporation of Board's observations, Due diligence certificate as per Form C of Schedule V, Board resolution for promoter's contribution allotment, Certificate from statutory auditor certifying promoters' contribution.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        6,
+        25
+      ],
+      "priority": "CRITICAL",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The lead manager(s) shall submit a statement certifying that all changes, suggestions and observations made by the Board have been incorporated in the offer document, a due diligence certificate as per Form C of Schedule V, a copy of the resolution passed by the board of directors of the issuer for allotting specified securities to promoter(s) towards amount received against promoters\u2019 contribution, a certificate from a statutory auditor certifying promoters\u2019 contribution, and a due diligence certificate as per Form D of Schedule V (if applicable), to the Board after issuance of observations by the Board or after expiry of the period stipulated in sub-regulation (4) if the Board has not issued observations.",
+        "\ud83d\udccb Required details: Statement certifying incorporation of Board's observations, Due diligence certificate as per Form C of Schedule V, Board resolution for promoter's contribution allotment, Certificate from statutory auditor certifying promoters' contribution.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall submit a statement certifying that all changes, suggestions and observations made by the Board have been incorporated in the..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The letter of offer shall also be provided by the issuer or lead manager(s) to any existing shareholder who makes a request in this regard.",
+      "citation": "ICDR_2018 Chapter III Unit 76",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content discusses the company's sales process, product benefits, and competitive landscape. However, it does not contain any information regarding the issuer's or lead manager's obligation to provide the letter of offer to existing shareholders upon request, as stipulated by SEBI/Companies Act regulations.",
+      "evidence": "",
+      "missing_details": "Statement confirming the availability of the letter of offer to existing shareholders upon request, and the process for obtaining it.",
+      "confidence": 1.0,
+      "pages": [
+        18,
+        19,
+        24
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The letter of offer shall also be provided by the issuer or lead manager(s) to any existing shareholder who makes a request in this regard.",
+        "\ud83d\udccb Required details: Statement confirming the availability of the letter of offer to existing shareholders upon request, and the process for obtaining it.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall call upon the issuer, its promoters and its directors or in case of an offer for sale, also the selling shareholders, to ful..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The promoters, or shareholders in control of an issuer, shall provide an exit offer to dissenting shareholders as provided for in the Companies Act, 2013, in case of change in objects or variation in the terms of contract related to objects referred to in the offer document as per conditions and manner is provided in Schedule XX",
+      "citation": "ICDR_2018 Chapter II Unit 59",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to an exit offer for dissenting shareholders in case of a change in objects or variation in contract terms. This legal obligation requires specific disclosures regarding the terms, conditions, and manner of such an exit offer, which are absent.",
+      "evidence": "",
+      "missing_details": "Details of the exit offer mechanism for dissenting shareholders, including the conditions and manner of providing such an offer as per Schedule XX of the Companies Act, 2013.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        19,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The promoters, or shareholders in control of an issuer, shall provide an exit offer to dissenting shareholders as provided for in the Companies Act, 2013, in case of change in objects or variation in the terms of contract related to objects referred to in the offer document as per conditions and manner is provided in Schedule XX",
+        "\ud83d\udccb Required details: Details of the exit offer mechanism for dissenting shareholders, including the conditions and manner of providing such an offer as per Schedule XX of the Companies Act, 2013.",
+        "\ud83d\udcda Legal Reference: In case the promoters have to subscribe to equity shares or convertible securities towards minimum promoters\u2019 contribution, the amount of promoters\u2019 c..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "Except for anything contrary provided in this Chapter, the provisions of Chapter -II shall mutatis mutandis apply in relation to the initial public offer made under the provisions of this Chapter.",
+      "citation": "ICDR_2018 Chapter II Unit 59B",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the minimum offer to the public or its compliance with the provisions of clause (b) of sub-rule (2) of rule 19 of Securities Contracts (Regulations) Rules, 1957. This is a critical requirement for an IPO.",
+      "evidence": "",
+      "missing_details": "Details regarding the minimum offer to the public and its compliance with clause (b) of sub-rule (2) of rule 19 of Securities Contracts (Regulations) Rules, 1957.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        19,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: Except for anything contrary provided in this Chapter, the provisions of Chapter -II shall mutatis mutandis apply in relation to the initial public offer made under the provisions of this Chapter.",
+        "\ud83d\udccb Required details: Details regarding the minimum offer to the public and its compliance with clause (b) of sub-rule (2) of rule 19 of Securities Contracts (Regulations) Rules, 1957.",
+        "\ud83d\udcda Legal Reference: Unless otherwise provided in this Chapter, an issuer making an initial public offer of specified securities shall satisfy the conditions of this Chapt..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The issuer shall also file the draft letter of offer with the stock exchange(s) and shall submit the Permanent Account Number, bank account number and passport number of its promoters where they are individuals, and Permanent Account Number, bank account number, company registration number or equivalent and the address of the Registrar of Companies with which the promoter is registered, where the promoter is a body corporate.",
+      "citation": "ICDR_2018 Chapter III Unit 71",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the promoters' Permanent Account Number, bank account number, passport number (for individuals), or company registration number and Registrar of Companies address (for corporate promoters). This information is a mandatory filing requirement.",
+      "evidence": "",
+      "missing_details": "Permanent Account Number of promoters, Bank account number of promoters, Passport number of promoters (if individuals), Company registration number or equivalent of promoters (if body corporate), Address of the Registrar of Companies with which the promoter is registered (if body corporate)",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        18,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The issuer shall also file the draft letter of offer with the stock exchange(s) and shall submit the Permanent Account Number, bank account number and passport number of its promoters where they are individuals, and Permanent Account Number, bank account number, company registration number or equivalent and the address of the Registrar of Companies with which the promoter is registered, where the promoter is a body corporate.",
+        "\ud83d\udccb Required details: Permanent Account Number of promoters, Bank account number of promoters, Passport number of promoters (if individuals), Company registration number or equivalent of promoters (if body corporate), Address of the Registrar of Companies with which the promoter is registered (if body corporate)",
+        "\ud83d\udcda Legal Reference: The issuer shall also file the draft offer document with the stock exchange(s) where the specified securities are proposed to be listed, and submit th..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The draft letter of offer and letter of offer shall contain disclosures as specified in Part B or Part B -1 of Schedule VI, as applicable.",
+      "citation": "ICDR_2018 Chapter III Unit 70(2)",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the disclosures required in Part B or Part B-1 of Schedule VI, which typically covers detailed financial information, risk factors, management discussion and analysis, and other material aspects of the company's business and prospects. The snippets focus on employee categories, marketing channels, and fertilizer subsidies, which are not directly related to the core disclosure requirements of the offer document as per Schedule VI.",
+      "evidence": "",
+      "missing_details": "Full disclosures as specified in Part B or Part B-1 of Schedule VI, including but not limited to, detailed financial statements, management discussion and analysis, risk factors, business description, promoters' background, use of proceeds, and terms of the offer.",
+      "confidence": 0.95,
+      "pages": [
+        2,
+        19,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The draft letter of offer and letter of offer shall contain disclosures as specified in Part B or Part B -1 of Schedule VI, as applicable.",
+        "\ud83d\udccb Required details: Full disclosures as specified in Part B or Part B-1 of Schedule VI, including but not limited to, detailed financial statements, management discussion and analysis, risk factors, business description, promoters' background, use of proceeds, and terms of the offer.",
+        "\ud83d\udcda Legal Reference: The abridged prospectus shall contain the disclosures as specified in Part E of Schedule VI and shall not contain any matter extraneous to the content..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall exercise due diligence and satisfy themselves about all aspects of the issue including the veracity and adequacy of disclosure in the draft letter of offer and the letter of offer.",
+      "citation": "ICDR_2018 Chapter III Unit 70(3)",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "INSUFFICIENT",
+      "explanation": "The DRHP provides a list of employees by category and mentions marketing channels. It also lists plant and machinery assets. However, it does not provide sufficient detail to satisfy the lead manager's due diligence obligation regarding the veracity and adequacy of disclosures about the company's business operations, market, and assets. For instance, the employee numbers are high-level, and the description of marketing channels lacks depth. The asset list is also a basic enumeration without further context or valuation.",
+      "evidence": "Sr. No Category of Employees No. of Employees\n1 Accounts 05\n2 Office and Admin 06\n3 Marketing 12\n4 Plant 13\n5 Miscellaneous 04\nTotal 40\n\nWe market our products through two channels. A. Through MARKFED (MP state co-operative Marketing Federation Limited) tender offer: Presently, the Company markets its product through tender of MARKFED (An undertaking of M.P. Government). The MARKFED sells our products through their agriculture societies spread all over Madhya Pradesh and Chhattisgarh.\n\nSr. No. Single Super Phosphate NPK Mix Zinc Sulphate\n15 Ventury Production Hopper Boiler\n16 Tower (Scrubbing) Production Belt Mono Dryer Fan\n17 Cyclone (Scrubbing) Dryer Cyclone Mono Dryer Chimney\n18 ID FAN Cooler Fan Boiler Chimney\n19 Chimney Chimney\n20 Acid Storage Tank-3 Cooler Cyclone\n21 Acid Service Tank-2\n22 Water Tank -1\n23 ETP",
+      "missing_details": "Detailed breakdown of employee responsibilities and qualifications, specific metrics on marketing channel performance and reach, comprehensive description and valuation of plant and machinery assets, details on any intellectual property, significant contracts, or regulatory compliance related to business operations.",
+      "confidence": 0.8,
+      "pages": [
+        1,
+        22,
+        23
+      ],
+      "priority": "LOW",
+      "recommendations": [
+        "\u26a0\ufe0f  ENHANCE: Current disclosure is incomplete",
+        "\ud83d\udccb Add the following: Detailed breakdown of employee responsibilities and qualifications, specific metrics on marketing channel performance and reach, comprehensive description and valuation of plant and machinery assets, details on any intellectual property, significant contracts, or regulatory compliance related to business operations.",
+        "\ud83d\udcc4 Current content location: Pages 1, 22, 23"
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall submit a statement certifying that all changes, suggestions and observations made by the Board have been incorporated in the letter of offer, to the Board after issuance of observations by the Board or after expiry of the period stipulated in sub-regulation (4) of regulation 71 if the Board has not issued observations.",
+      "citation": "ICDR_2018 Chapter III Unit 71",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the lead manager's submission of a statement certifying the incorporation of the Board's suggestions and observations, nor does it include a due diligence certificate or details of public comments. This obligation pertains to post-observation filings.",
+      "evidence": "",
+      "missing_details": "Statement certifying incorporation of Board's suggestions and observations, Due diligence certificate as per Form C of Schedule V, Details of comments received from the public and consequential changes.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        4,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The lead manager(s) shall submit a statement certifying that all changes, suggestions and observations made by the Board have been incorporated in the letter of offer, to the Board after issuance of observations by the Board or after expiry of the period stipulated in sub-regulation (4) of regulation 71 if the Board has not issued observations.",
+        "\ud83d\udccb Required details: Statement certifying incorporation of Board's suggestions and observations, Due diligence certificate as per Form C of Schedule V, Details of comments received from the public and consequential changes.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall submit a statement certifying that all changes, suggestions and observations made by the Board have been incorporated in the..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "If the issuer making an initial public offer, other than through the book building process, desires to have the issue underwritten to cover under-subscription in the issue, it shall, prior to the",
+      "citation": "ICDR_2018 Chapter II Unit 40",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to underwriting agreements or the process of engaging underwriters for the IPO. Legal Requirement 1 and 2 both mandate that if an issuer opts for underwriting (other than book building), an underwriting agreement must be entered into prior to filing the prospectus. This crucial information is absent.",
+      "evidence": "",
+      "missing_details": "Underwriting agreement details, names of underwriters, number of securities to be subscribed by underwriters, confirmation of agreement prior to prospectus filing",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        18,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: If the issuer making an initial public offer, other than through the book building process, desires to have the issue underwritten to cover under-subscription in the issue, it shall, prior to the",
+        "\ud83d\udccb Required details: Underwriting agreement details, names of underwriters, number of securities to be subscribed by underwriters, confirmation of agreement prior to prospectus filing",
+        "\ud83d\udcda Legal Reference: If the issuer making an initial public offer, other than through the book building process, desires to have the issue underwritten to cover under-subs..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "Details specified in sub regulation (1) shall also be placed on the websites of the stock exchange(s).",
+      "citation": "ICDR_2018 Chapter II Unit 51",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the disclosure of announcements and financial ratios on stock exchange websites or pre-filled application forms. This obligation pertains to the post-filing stage and requires specific disclosures that are not present in the excerpt.",
+      "evidence": "",
+      "missing_details": "Disclosure of announcements referred to in sub-regulation (4) on stock exchange websites, Disclosure of relevant financial ratios referred to in sub-regulation (5) on stock exchange websites, Pre-filling of application forms on stock exchange websites with the announcement and financial ratios.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        6,
+        19
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: Details specified in sub regulation (1) shall also be placed on the websites of the stock exchange(s).",
+        "\ud83d\udccb Required details: Disclosure of announcements referred to in sub-regulation (4) on stock exchange websites, Disclosure of relevant financial ratios referred to in sub-regulation (5) on stock exchange websites, Pre-filling of application forms on stock exchange websites with the announcement and financial ratios.",
+        "\ud83d\udcda Legal Reference: The announcement referred to in sub-regulation (4) and the relevant financial ratios referred to in sub-regulation (5) shall be disclosed on the websi..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall ensure that the monies received in respect of the rights issue are released to the issuer in compliance with the provisions of sub-section (3) of section 40 of the Companies Act, 2013, as applicable.",
+      "citation": "ICDR_2018 Chapter III Unit 94",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the lead manager's obligation to ensure monies received in respect of a rights issue are released to the issuer in compliance with sub-section (3) of section 40 of the Companies Act, 2013. The snippets discuss business operations, forward-looking statements, and customer details, none of which address this specific legal obligation.",
+      "evidence": "",
+      "missing_details": "Details regarding the release of monies received in respect of the rights issue, confirmation of compliance with sub-section (3) of section 40 of the Companies Act, 2013, and the role of the lead manager(s) in this process.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        4,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The lead manager(s) shall ensure that the monies received in respect of the rights issue are released to the issuer in compliance with the provisions of sub-section (3) of section 40 of the Companies Act, 2013, as applicable.",
+        "\ud83d\udccb Required details: Details regarding the release of monies received in respect of the rights issue, confirmation of compliance with sub-section (3) of section 40 of the Companies Act, 2013, and the role of the lead manager(s) in this process.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall call upon the issuer, its promoters and its directors or in case of an offer for sale, also the selling shareholders, to ful..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "Specified securities referred to in clauses (a) and (c) of sub-regulation (1) shall be eligible for the computation of promoters\u2019 contribution if such securities are acquired pursuant to a scheme which has been approved by a tribunal or the Central Government under sections 230 to 234 of the Companies Act, 2013.",
+      "citation": "ICDR_2018 Chapter II Unit 15",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the acquisition of specified securities pursuant to a scheme approved by a tribunal or the Central Government under sections 230 to 234 of the Companies Act, 2013. This is a specific requirement for the computation of promoters' contribution.",
+      "evidence": "",
+      "missing_details": "Details of any schemes approved under sections 230 to 234 of the Companies Act, 2013, and how specified securities were acquired pursuant to such schemes for the computation of promoters' contribution.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        20,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: Specified securities referred to in clauses (a) and (c) of sub-regulation (1) shall be eligible for the computation of promoters\u2019 contribution if such securities are acquired pursuant to a scheme which has been approved by a tribunal or the Central Government under sections 230 to 234 of the Companies Act, 2013.",
+        "\ud83d\udccb Required details: Details of any schemes approved under sections 230 to 234 of the Companies Act, 2013, and how specified securities were acquired pursuant to such schemes for the computation of promoters' contribution.",
+        "\ud83d\udcda Legal Reference: Specified securities referred to in clauses (a) and (c) of sub-regulation (1) shall be eligible for the computation of promoters\u2019 contribution if such..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "Unless otherwise provided in this Chapter, an issuer making an initial public offer of specified securities shall satisfy the conditions of this Chapter as on the date of filing of the draft offer document with the Board and also as on the date of filing the offer document with the Registrar of Companies.",
+      "citation": "ICDR_2018 Chapter II Unit 4",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the issuer's agreement with a depository for the dematerialisation of securities. This is a mandatory requirement for an issuer making an initial public offer.",
+      "evidence": "",
+      "missing_details": "Agreement with a depository for dematerialisation of specified securities",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        19,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: Unless otherwise provided in this Chapter, an issuer making an initial public offer of specified securities shall satisfy the conditions of this Chapter as on the date of filing of the draft offer document with the Board and also as on the date of filing the offer document with the Registrar of Companies.",
+        "\ud83d\udccb Required details: Agreement with a depository for dematerialisation of specified securities",
+        "\ud83d\udcda Legal Reference: Unless otherwise provided in this Chapter, an issuer making an initial public offer of specified securities shall satisfy the conditions of this Chapt..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "the issue can be underwritten only to the extent of entitlement of shareholders other than the promoters and promoter group.",
+      "citation": "ICDR_2018 Chapter III Unit 81",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the underwriting of the issue or the entitlement of shareholders other than promoters and promoter group. Therefore, it is impossible to determine if this legal obligation is satisfied.",
+      "evidence": "",
+      "missing_details": "Information regarding the underwriting of the issue, specifically the extent to which it is limited to shareholders other than promoters and promoter group.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        24,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: the issue can be underwritten only to the extent of entitlement of shareholders other than the promoters and promoter group.",
+        "\ud83d\udccb Required details: Information regarding the underwriting of the issue, specifically the extent to which it is limited to shareholders other than promoters and promoter group.",
+        "\ud83d\udcda Legal Reference: An issuer shall not be eligible to make an initial public offer if any of its promoters or directors is a promoter or director of any other company wh..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The authorised employees of the designated stock exchange, along with the lead manager(s) and registrars to the issue, shall ensure that the basis of allotment is finalised in a fair and proper manner in accordance with the procedure as specified in Part A of Schedule XIV.",
+      "citation": "ICDR_2018 Chapter II Unit 49",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the legal obligation of ensuring the basis of allotment is finalized in a fair and proper manner. This obligation pertains to the post-filing process and requires specific statements and certifications from the lead manager(s) and registrars to the issue, which are not present in the excerpt.",
+      "evidence": "",
+      "missing_details": "Statement certifying fair and proper finalization of the basis of allotment as per Part A of Schedule XIV, confirmation of adherence to allotment procedures.",
+      "confidence": 1.0,
+      "pages": [
+        18,
+        22,
+        25
+      ],
+      "priority": "CRITICAL",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The authorised employees of the designated stock exchange, along with the lead manager(s) and registrars to the issue, shall ensure that the basis of allotment is finalised in a fair and proper manner in accordance with the procedure as specified in Part A of Schedule XIV.",
+        "\ud83d\udccb Required details: Statement certifying fair and proper finalization of the basis of allotment as per Part A of Schedule XIV, confirmation of adherence to allotment procedures.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall submit a statement certifying that all changes, suggestions and observations made by the Board have been incorporated in the..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The issuer shall also file the draft offer document with the stock exchange(s) where the specified securities are proposed to be listed, and submit the Permanent Account Number, bank account number and passport number of its promoters (if individuals), or Permanent Account Number, bank account number, company registration number or equivalent and the address of the Registrar of Companies (if promoter is a body corporate), to the stock exchange(s).",
+      "citation": "ICDR_2018 Chapter II Unit 25",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the filing of the draft offer document with stock exchanges or the submission of promoter details (PAN, bank account, passport number, company registration number, Registrar of Companies address). This is a critical omission for IPO compliance.",
+      "evidence": "",
+      "missing_details": "Draft offer document filing with stock exchanges, Promoter PAN, Promoter bank account number, Promoter passport number (if individual), Promoter company registration number or equivalent (if body corporate), Registrar of Companies address (if promoter is a body corporate)",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        22,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The issuer shall also file the draft offer document with the stock exchange(s) where the specified securities are proposed to be listed, and submit the Permanent Account Number, bank account number and passport number of its promoters (if individuals), or Permanent Account Number, bank account number, company registration number or equivalent and the address of the Registrar of Companies (if promoter is a body corporate), to the stock exchange(s).",
+        "\ud83d\udccb Required details: Draft offer document filing with stock exchanges, Promoter PAN, Promoter bank account number, Promoter passport number (if individual), Promoter company registration number or equivalent (if body corporate), Registrar of Companies address (if promoter is a body corporate)",
+        "\ud83d\udcda Legal Reference: The issuer shall also file the draft offer document with the stock exchange(s) where the specified securities are proposed to be listed, and submit th..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall call upon the issuer, its promoters and its directors or in case of an offer for sale, also the selling shareholders, to fulfil their obligations as disclosed by them in the draft offer document and the offer document and as required in terms of these regulations.",
+      "citation": "ICDR_2018 Chapter II Unit 24",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the lead manager's obligation to call upon the issuer, promoters, directors, or selling shareholders to fulfill their disclosed obligations. The snippets focus on environmental initiatives, sales processes, employee categories, and marketing channels, none of which address the lead manager's compliance duties as outlined in Legal Requirement 1.",
+      "evidence": "",
+      "missing_details": "Information regarding the lead manager's actions to ensure the issuer, promoters, directors, and selling shareholders fulfill their obligations as disclosed in the offer document and as required by regulations.",
+      "confidence": 1.0,
+      "pages": [
+        18,
+        23,
+        25
+      ],
+      "priority": "CRITICAL",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The lead manager(s) shall call upon the issuer, its promoters and its directors or in case of an offer for sale, also the selling shareholders, to fulfil their obligations as disclosed by them in the draft offer document and the offer document and as required in terms of these regulations.",
+        "\ud83d\udccb Required details: Information regarding the lead manager's actions to ensure the issuer, promoters, directors, and selling shareholders fulfill their obligations as disclosed in the offer document and as required by regulations.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall call upon the issuer, its promoters and its directors or in case of an offer for sale, also the selling shareholders, to ful..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "Copy of the offer documents shall also be filed with the Board and the stock exchange(s) through the lead manager(s) promptly after filing the offer documents with Registrar of Companies.",
+      "citation": "ICDR_2018 Chapter II Unit 25",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the filing of offer documents with SEBI and stock exchanges, nor does it mention the role of lead managers in this process. The legal obligation requires prompt filing after submission to the Registrar of Companies, which is not addressed in the given excerpts.",
+      "evidence": "",
+      "missing_details": "Confirmation of offer document filing with SEBI and stock exchanges, details of lead manager involvement in filing, statement regarding prompt filing post-RoC submission.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        18,
+        24
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: Copy of the offer documents shall also be filed with the Board and the stock exchange(s) through the lead manager(s) promptly after filing the offer documents with Registrar of Companies.",
+        "\ud83d\udccb Required details: Confirmation of offer document filing with SEBI and stock exchanges, details of lead manager involvement in filing, statement regarding prompt filing post-RoC submission.",
+        "\ud83d\udcda Legal Reference: Copy of the offer documents shall also be filed with the Board and the stock exchange(s) through the lead manager(s) promptly after filing the offer d..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In an issue made other than through the book building process, the allocation in the net offer category shall be remaining to other investors including corporate bodies or institutions, irrespective of the number of specified securities applied for.",
+      "citation": "ICDR_2018 Chapter II Unit 32",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the allocation categories for an issue made other than through the book building process. Specifically, there is no mention of how the net offer category will be allocated to corporate bodies, institutions, or individual applicants other than retail individual investors.",
+      "evidence": "",
+      "missing_details": "Allocation details for the net offer category, specifying distribution to corporate bodies, institutions, and non-retail individual investors.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        18,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In an issue made other than through the book building process, the allocation in the net offer category shall be remaining to other investors including corporate bodies or institutions, irrespective of the number of specified securities applied for.",
+        "\ud83d\udccb Required details: Allocation details for the net offer category, specifying distribution to corporate bodies, institutions, and non-retail individual investors.",
+        "\ud83d\udcda Legal Reference: In an issue made other than through the book building process, the allocation in the net offer category shall be remaining to other investors includin..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The authorised employees of the designated stock exchange along with the lead manager(s) and registrars to the issue shall ensure that the basis of allotment is finalised in a fair and proper manner as may be prescribed by the Board.",
+      "citation": "ICDR_2018 Chapter III Unit 90",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the basis of allotment. This obligation requires details on how shares will be allocated to different categories of investors, which is a crucial part of the IPO process and is typically found in a dedicated section of the DRHP.",
+      "evidence": "",
+      "missing_details": "Basis of allotment details, including allocation methodology for different investor categories (e.g., QIBs, NIIs, Retail), subscription levels, and the final allotment ratio.",
+      "confidence": 1.0,
+      "pages": [
+        18,
+        22,
+        25
+      ],
+      "priority": "CRITICAL",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The authorised employees of the designated stock exchange along with the lead manager(s) and registrars to the issue shall ensure that the basis of allotment is finalised in a fair and proper manner as may be prescribed by the Board.",
+        "\ud83d\udccb Required details: Basis of allotment details, including allocation methodology for different investor categories (e.g., QIBs, NIIs, Retail), subscription levels, and the final allotment ratio.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall ensure availability of the offer document and other issue material including application forms to stock exchanges, syndicate..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The abridged letter of offer, along with application form, shall be despatched through registered post or speed post or by courier service or by electronic transmission to all the existing shareholders at least three days before the date of opening of the issue.",
+      "citation": "ICDR_2018 Chapter III Unit 76",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the despatch of the abridged letter of offer and application form to existing shareholders. This legal obligation requires specific details about the method of despatch, the timeline relative to the issue opening date, and confirmation of such despatch.",
+      "evidence": "",
+      "missing_details": "Details of despatch method (registered post, speed post, courier, electronic transmission), confirmation of despatch to all existing shareholders, and confirmation that despatch occurred at least three days before the opening of the issue.",
+      "confidence": 1.0,
+      "pages": [
+        20,
+        23,
+        24
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The abridged letter of offer, along with application form, shall be despatched through registered post or speed post or by courier service or by electronic transmission to all the existing shareholders at least three days before the date of opening of the issue.",
+        "\ud83d\udccb Required details: Details of despatch method (registered post, speed post, courier, electronic transmission), confirmation of despatch to all existing shareholders, and confirmation that despatch occurred at least three days before the opening of the issue.",
+        "\ud83d\udcda Legal Reference: In case of rights issue of size less than fifty crores rupees, the issuer shall prepare the letter of offer in accordance with requirements as specifi..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be no t more than fifty per cent. to qualified institutional buyers, five per cent. of which shall be allocated to mutual funds.",
+      "citation": "ICDR_2018 Chapter II Unit 32",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the allocation of shares in the net offer category to qualified institutional buyers (QIBs) or mutual funds, which is a mandatory disclosure for book-built issues. Therefore, compliance with the specified legal obligations cannot be determined.",
+      "evidence": "",
+      "missing_details": "Allocation percentages for Qualified Institutional Buyers (QIBs) in the net offer category, Specific allocation percentage for Mutual Funds within the QIB category.",
+      "confidence": 1.0,
+      "pages": [
+        4,
+        23,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be no t more than fifty per cent. to qualified institutional buyers, five per cent. of which shall be allocated to mutual funds.",
+        "\ud83d\udccb Required details: Allocation percentages for Qualified Institutional Buyers (QIBs) in the net offer category, Specific allocation percentage for Mutual Funds within the QIB category.",
+        "\ud83d\udcda Legal Reference: In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be no t mo..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall call upon the issuer, its promoters and its directors to fulfil their obligations as disclosed by them in the draft letter of offer and letter of offer and as required in terms of these Regulations.",
+      "citation": "ICDR_2018 Chapter III Unit 70(4)",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the lead manager's obligation to call upon the issuer, promoters, directors, or selling shareholders to fulfill their disclosed obligations. The excerpts focus on employee categories, market channels, environmental initiatives, and sales processes.",
+      "evidence": "",
+      "missing_details": "Information regarding the lead manager's actions to ensure issuer, promoter, director, and selling shareholder compliance with their disclosed obligations.",
+      "confidence": 1.0,
+      "pages": [
+        18,
+        23,
+        25
+      ],
+      "priority": "CRITICAL",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The lead manager(s) shall call upon the issuer, its promoters and its directors to fulfil their obligations as disclosed by them in the draft letter of offer and letter of offer and as required in terms of these Regulations.",
+        "\ud83d\udccb Required details: Information regarding the lead manager's actions to ensure issuer, promoter, director, and selling shareholder compliance with their disclosed obligations.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall call upon the issuer, its promoters and its directors or in case of an offer for sale, also the selling shareholders, to ful..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In case the issuer opts for the alternate method of book building in terms of Part D of Schedule XIII , the issuer may offer the specified securities to its employees at a price not lower than by more than ten per cent. of the floor price.",
+      "citation": "ICDR_2018 Chapter II Unit 30",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the offering of specified securities to employees at a price not lower than ten percent of the floor price, which is a requirement when the issuer opts for the alternate method of book building. Therefore, compliance with this specific legal obligation cannot be determined from the given excerpts.",
+      "evidence": "",
+      "missing_details": "Details regarding the employee stock option plan, the price at which securities will be offered to employees, and confirmation of adherence to the ten percent floor price rule.",
+      "confidence": 1.0,
+      "pages": [
+        12,
+        18,
+        24
+      ],
+      "priority": "CRITICAL",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In case the issuer opts for the alternate method of book building in terms of Part D of Schedule XIII , the issuer may offer the specified securities to its employees at a price not lower than by more than ten per cent. of the floor price.",
+        "\ud83d\udccb Required details: Details regarding the employee stock option plan, the price at which securities will be offered to employees, and confirmation of adherence to the ten percent floor price rule.",
+        "\ud83d\udcda Legal Reference: In case the issuer opts for the alternate method of book building in terms of Part D of Schedule XIII , the issuer may offer the specified securities ..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In an issue made through the book building process under sub-regulation (2) of regulation 6, the allocation in the net offer category shall be not less than seventy five per cent. to qualified institutional buyers, five per cent. of which shall be allocated to mutual funds.",
+      "citation": "ICDR_2018 Chapter II Unit 32",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the allocation of shares in the net offer category to qualified institutional buyers (QIBs) or mutual funds, which is a mandatory disclosure for book-built issues. Therefore, compliance with the specified legal obligations cannot be determined.",
+      "evidence": "",
+      "missing_details": "Details of allocation in the net offer category to qualified institutional buyers (QIBs), including the specific percentage allocated to QIBs and the sub-allocation to mutual funds.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        23,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In an issue made through the book building process under sub-regulation (2) of regulation 6, the allocation in the net offer category shall be not less than seventy five per cent. to qualified institutional buyers, five per cent. of which shall be allocated to mutual funds.",
+        "\ud83d\udccb Required details: Details of allocation in the net offer category to qualified institutional buyers (QIBs), including the specific percentage allocated to QIBs and the sub-allocation to mutual funds.",
+        "\ud83d\udcda Legal Reference: In an issue made through the book building process under sub-regulation (2) of regulation 6, the allocation in the net offer category shall be not les..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "Shareholders making an application on plain paper shall not be entitled to renounce their rights and shall not utilise the application form for any purpose including re nunciation even if it is received subsequently.",
+      "citation": "ICDR_2018 Chapter III Unit 78",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information related to the legal obligation concerning shareholders making applications on plain paper and their inability to renounce rights. This specific disclosure is a crucial aspect of IPO compliance and is entirely absent from the given text.",
+      "evidence": "",
+      "missing_details": "Disclosure regarding the rights and renunciation limitations for shareholders applying on plain paper.",
+      "confidence": 1.0,
+      "pages": [
+        19,
+        20,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: Shareholders making an application on plain paper shall not be entitled to renounce their rights and shall not utilise the application form for any purpose including re nunciation even if it is received subsequently.",
+        "\ud83d\udccb Required details: Disclosure regarding the rights and renunciation limitations for shareholders applying on plain paper.",
+        "\ud83d\udcda Legal Reference: An issuer shall not be eligible to make an initial public offer if there are any outstanding convertible securities or any other right which would ent..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "Copy of the letter of offer shall also be filed with the Board and the stock exchanges through the lead manager simultaneously with filing of the letter of offer with the designated stock exchange.",
+      "citation": "ICDR_2018 Chapter III Unit 71",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the filing of the letter of offer with SEBI and the stock exchanges simultaneously with its filing with the designated stock exchange. This is a critical procedural step for IPO compliance.",
+      "evidence": "",
+      "missing_details": "Confirmation of simultaneous filing of the letter of offer with SEBI and stock exchanges, details of the lead manager's role in this filing process.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        18,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: Copy of the letter of offer shall also be filed with the Board and the stock exchanges through the lead manager simultaneously with filing of the letter of offer with the designated stock exchange.",
+        "\ud83d\udccb Required details: Confirmation of simultaneous filing of the letter of offer with SEBI and stock exchanges, details of the lead manager's role in this filing process.",
+        "\ud83d\udcda Legal Reference: Copy of the offer documents shall also be filed with the Board and the stock exchange(s) through the lead manager(s) promptly after filing the offer d..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "it shall create a debenture redemption reserve in accordance with the provisions of the Companies Act, 2013 and rules made thereunder;",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the creation of a debenture redemption reserve as required by the Companies Act, 2013. This is a critical omission for compliance.",
+      "evidence": "",
+      "missing_details": "Details on the creation of a debenture redemption reserve, including the amount set aside and the basis for calculation, in accordance with the Companies Act, 2013 and relevant rules.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        6,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: it shall create a debenture redemption reserve in accordance with the provisions of the Companies Act, 2013 and rules made thereunder;",
+        "\ud83d\udccb Required details: Details on the creation of a debenture redemption reserve, including the amount set aside and the basis for calculation, in accordance with the Companies Act, 2013 and relevant rules.",
+        "\ud83d\udcda Legal Reference: it shall create a debenture redemption reserve in accordance with the provisions of the Companies Act, 2013 and rules made thereunder;..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "an issuer offering specified securities of aggregate value of 88[fifty crores] rupees or more, through a rights issue shall satisfy the conditions of this Chapter at the time of filing the draft letter of offer with the Board and also at the time of filing the final letter of offer with the stock exchanges, as the case may be.",
+      "citation": "ICDR_2018 Chapter III Unit 60",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the issuer's compliance with the legal obligation to satisfy the conditions of the specified chapter at the time of filing the draft letter of offer, particularly concerning the aggregate value of securities offered through a rights issue. The provided snippets discuss employee categories, business operations, forward-looking statements, and environmental initiatives, none of which address the core requirement of the legal obligation.",
+      "evidence": "",
+      "missing_details": "Information regarding the aggregate value of securities offered through a rights issue, confirmation of satisfaction of Chapter conditions at the time of filing the draft letter of offer, and confirmation of satisfaction of Chapter conditions at the time of filing the final letter of offer.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        23,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: an issuer offering specified securities of aggregate value of 88[fifty crores] rupees or more, through a rights issue shall satisfy the conditions of this Chapter at the time of filing the draft letter of offer with the Board and also at the time of filing the final letter of offer with the stock exchanges, as the case may be.",
+        "\ud83d\udccb Required details: Information regarding the aggregate value of securities offered through a rights issue, confirmation of satisfaction of Chapter conditions at the time of filing the draft letter of offer, and confirmation of satisfaction of Chapter conditions at the time of filing the final letter of offer.",
+        "\ud83d\udcda Legal Reference: In case of rights issue of size less than fifty crores rupees, the issuer shall prepare the letter of offer in accordance with requirements as specifi..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "Where the specified securities are not allotted and/or application monies are not refunded or unblocked within the period stipulated in sub-regulation (1) above, the issuer shall undertake to pay interest at the rate of fifteen per cent. per annum to the shareholders within such time as disclosed in the draft letter of offer and the letter of offer and the lead manager(s) shall ensure the same.",
+      "citation": "ICDR_2018 Chapter III Unit 91",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the issuer's undertaking to pay interest on delayed allotment or refund of application monies, nor does it mention the lead manager's responsibility in ensuring this. This is a critical disclosure requirement for IPOs.",
+      "evidence": "",
+      "missing_details": "Undertaking to pay interest at 15% per annum on delayed allotment/refund, timeframe for such payment, and lead manager's role in ensuring the same.",
+      "confidence": 1.0,
+      "pages": [
+        22,
+        23,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: Where the specified securities are not allotted and/or application monies are not refunded or unblocked within the period stipulated in sub-regulation (1) above, the issuer shall undertake to pay interest at the rate of fifteen per cent. per annum to the shareholders within such time as disclosed in the draft letter of offer and the letter of offer and the lead manager(s) shall ensure the same.",
+        "\ud83d\udccb Required details: Undertaking to pay interest at 15% per annum on delayed allotment/refund, timeframe for such payment, and lead manager's role in ensuring the same.",
+        "\ud83d\udcda Legal Reference: The amount for general corporate purposes, and such objects where the issuer company has not identified acquisition or investment target, as mentioned..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "an updated pre-filed offer document or a fresh draft offer document under Chapter II or fresh pre-filed draft offer document, as the case may be, shall be filed with the Board along with fees specified in Schedule III",
+      "citation": "ICDR_2018 Chapter II Unit 59E",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the filing of an updated or fresh draft offer document with the Board along with specified fees. The legal obligation requires the submission of such documents under specific circumstances, which is not addressed in the given excerpts.",
+      "evidence": "",
+      "missing_details": "Filing of updated/fresh draft offer document with SEBI, Payment of fees as per Schedule III",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        19,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: an updated pre-filed offer document or a fresh draft offer document under Chapter II or fresh pre-filed draft offer document, as the case may be, shall be filed with the Board along with fees specified in Schedule III",
+        "\ud83d\udccb Required details: Filing of updated/fresh draft offer document with SEBI, Payment of fees as per Schedule III",
+        "\ud83d\udcda Legal Reference: If there are any changes in the draft offer document in relation to the matters specified in Schedule XVI, an updated offer document or a fresh draft ..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "An issue shall be opened after at least three working days from the date of filing, the red herring prospectus , in case of a book built issue and the prospectus, in case of a fixed price issue, with the Registrar of Companies.",
+      "citation": "ICDR_2018 Chapter II Unit 44",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the filing date of the Red Herring Prospectus with the Registrar of Companies or the opening date of the issue. Therefore, it is impossible to determine if the legal obligation of opening the issue at least three working days after filing has been met.",
+      "evidence": "",
+      "missing_details": "Date of filing of Red Herring Prospectus with Registrar of Companies, Opening date of the issue",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        4,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: An issue shall be opened after at least three working days from the date of filing, the red herring prospectus , in case of a book built issue and the prospectus, in case of a fixed price issue, with the Registrar of Companies.",
+        "\ud83d\udccb Required details: Date of filing of Red Herring Prospectus with Registrar of Companies, Opening date of the issue",
+        "\ud83d\udcda Legal Reference: An issue shall be opened after at least three working days from the date of filing, the red herring prospectus , in case of a book built issue and the..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In case the promoters have to subscribe to equity shares or convertible securities towards minimum promoters\u2019 contribution, the amount of promoters\u2019 contribution shall be kept in an escrow account with a scheduled commercial bank, which shall be released to the issuer along with the release of the issue proceeds.",
+      "citation": "ICDR_2018 Chapter II Unit 14",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information regarding the promoters' contribution to the minimum promoters' contribution, nor do they mention the establishment or details of an escrow account for such contributions. Therefore, compliance with the legal obligation to keep promoters' contribution in an escrow account cannot be determined.",
+      "evidence": "",
+      "missing_details": "Details of promoters' contribution to minimum promoters' contribution, confirmation of escrow account for promoters' contribution, details of the scheduled commercial bank where the escrow account is maintained, terms of release of escrow account funds.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        18,
+        24
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In case the promoters have to subscribe to equity shares or convertible securities towards minimum promoters\u2019 contribution, the amount of promoters\u2019 contribution shall be kept in an escrow account with a scheduled commercial bank, which shall be released to the issuer along with the release of the issue proceeds.",
+        "\ud83d\udccb Required details: Details of promoters' contribution to minimum promoters' contribution, confirmation of escrow account for promoters' contribution, details of the scheduled commercial bank where the escrow account is maintained, terms of release of escrow account funds.",
+        "\ud83d\udcda Legal Reference: In case the promoters have to subscribe to equity shares or convertible securities towards minimum promoters\u2019 contribution, the amount of promoters\u2019 c..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "\u201cpre-filed draft offer document\u201d shall mean draft offer document filed with the Board under this Chapter",
+      "citation": "ICDR_2018 Chapter II Unit 59A",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "INSUFFICIENT",
+      "explanation": "The DRHP mentions forward-looking statements and risks, and discusses business operations and market channels. However, it does not contain all material disclosures necessary for an informed investment decision, particularly regarding specific financial details, risk factors, and management's discussion, which are referenced but not provided in the excerpt. The legal obligation requires 'true and adequate' disclosures to enable informed decisions.",
+      "evidence": "Some of the information in the following discussion, including information with respect to our plans and strategies, contain forward-looking statements that involve risks and uncertainties. You should read \u201cForward Looking Statements\u201d on page for a discussion of the risks and uncertainties related to those statements. Our actual results may differ materially from those expressed in or implied by these forward-looking statements. Also read \u201cRisk Factors\u201d and \u201cManagement\u2019s Discussion",
+      "missing_details": "Full content of 'Forward Looking Statements' section, Full content of 'Risk Factors' section, Full content of 'Management\u2019s Discussion' section, Specific financial disclosures, Details of material contracts, Information on promoters and their background, Details of the issue size and use of proceeds.",
+      "confidence": 0.9,
+      "pages": [
+        1,
+        23,
+        25
+      ],
+      "priority": "LOW",
+      "recommendations": [
+        "\u26a0\ufe0f  ENHANCE: Current disclosure is incomplete",
+        "\ud83d\udccb Add the following: Full content of 'Forward Looking Statements' section, Full content of 'Risk Factors' section, Full content of 'Management\u2019s Discussion' section, Specific financial disclosures, Details of material contracts, Information on promoters and their background, Details of the issue size and use of proceeds.",
+        "\ud83d\udcc4 Current content location: Pages 1, 23, 25"
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "the issuer shall file updated draft red herring prospectus -I with the Board and the stock exchanges in terms of regulation 59 C of these regulations within sixteen months from the date of issuance of the observations by the Board",
+      "citation": "ICDR_2018 Chapter II Unit 59E",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the legal obligation of filing updated draft red herring prospectus within sixteen months from the date of issuance of observations by the Board. This specific regulatory requirement is not addressed in the snippets provided.",
+      "evidence": "",
+      "missing_details": "Filing of updated draft red herring prospectus within sixteen months from the date of issuance of observations by the Board as per regulation 59 C.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        4,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: the issuer shall file updated draft red herring prospectus -I with the Board and the stock exchanges in terms of regulation 59 C of these regulations within sixteen months from the date of issuance of the observations by the Board",
+        "\ud83d\udccb Required details: Filing of updated draft red herring prospectus within sixteen months from the date of issuance of observations by the Board as per regulation 59 C.",
+        "\ud83d\udcda Legal Reference: the red-herring prospectus, and prospectus shall contain disclosures specified in Part A of Schedule VI..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall ensure availability of the letter of offer and other issue material including a pplication forms with stock exchanges, registrar to issue, registrar and share transfer agents, depository participants, stock brokers, underwriters, bankers to the issue, investors\u2018 associations and self certified syndicate banks before the opening of the issue.",
+      "citation": "ICDR_2018 Chapter III Unit 77",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the lead manager's obligation to ensure the availability of the letter of offer, application forms, and other issue material with various intermediaries before the opening of the issue. The content focuses on the company's business, financial KPIs, and sales process.",
+      "evidence": "",
+      "missing_details": "Confirmation of availability of letter of offer, application forms, and other issue material with stock exchanges, registrar to issue, registrar and share transfer agents, depository participants, stock brokers, underwriters, bankers to the issue, investors\u2018 associations and self certified syndicate banks before the opening of the issue.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3,
+        18
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The lead manager(s) shall ensure availability of the letter of offer and other issue material including a pplication forms with stock exchanges, registrar to issue, registrar and share transfer agents, depository participants, stock brokers, underwriters, bankers to the issue, investors\u2018 associations and self certified syndicate banks before the opening of the issue.",
+        "\ud83d\udccb Required details: Confirmation of availability of letter of offer, application forms, and other issue material with stock exchanges, registrar to issue, registrar and share transfer agents, depository participants, stock brokers, underwriters, bankers to the issue, investors\u2018 associations and self certified syndicate banks before the opening of the issue.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall ensure availability of the offer document and other issue material including application forms to stock exchanges, syndicate..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be not less than thirty five per cent. to retail individual investors.",
+      "citation": "ICDR_2018 Chapter II Unit 32",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the allocation of shares to retail individual investors in the net offer category for an issue made through the book building process. Therefore, it is impossible to determine if the legal obligation of allocating not less than thirty-five percent to retail individual investors (Legal Requirement 1) or not more than ten percent (Legal Requirement 2) is met.",
+      "evidence": "",
+      "missing_details": "Details on the allocation of shares in the net offer category to retail individual investors, specifying the percentage allocated.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        23,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be not less than thirty five per cent. to retail individual investors.",
+        "\ud83d\udccb Required details: Details on the allocation of shares in the net offer category to retail individual investors, specifying the percentage allocated.",
+        "\ud83d\udcda Legal Reference: In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be not les..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall submit to the Board, the following documents along with the letter of offer: a due diligence certificate as per Form A of Schedule V including additional confirmations as specified in Form E of Schedule V.",
+      "citation": "ICDR_2018 Chapter III Unit 100",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any mention of a due diligence certificate as per Form A of Schedule V, nor does it include any confirmation of its submission to the Board. The legal obligation requires the lead manager(s) to submit this certificate along with the letter of offer. The DRHP excerpts focus on business operations, forward-looking statements, and sales processes, but omit crucial compliance documentation.",
+      "evidence": "",
+      "missing_details": "Due diligence certificate as per Form A of Schedule V, Additional confirmations as specified in Form E of Schedule V",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        18,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The lead manager(s) shall submit to the Board, the following documents along with the letter of offer: a due diligence certificate as per Form A of Schedule V including additional confirmations as specified in Form E of Schedule V.",
+        "\ud83d\udccb Required details: Due diligence certificate as per Form A of Schedule V, Additional confirmations as specified in Form E of Schedule V",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall submit a statement certifying that all changes, suggestions and observations made by the Board have been incorporated in the..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The rights entitlements shall be credited to the demat account of the shareholders before the date of opening of the issue.",
+      "citation": "ICDR_2018 Chapter III Unit 77A",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the crediting of rights entitlements to the demat accounts of shareholders before the opening of the issue. This is a specific requirement for rights issues and is not addressed in the excerpts.",
+      "evidence": "",
+      "missing_details": "Confirmation of rights entitlements credited to demat accounts before issue opening date",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        20,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The rights entitlements shall be credited to the demat account of the shareholders before the date of opening of the issue.",
+        "\ud83d\udccb Required details: Confirmation of rights entitlements credited to demat accounts before issue opening date",
+        "\ud83d\udcda Legal Reference: Unless otherwise provided, these regulations shall apply to a rights issue by a listed issuer where the aggregate value of the issue is fifty crore ru..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The rights issue shall be kept open for subscription for a maximum period of thirty days",
+      "citation": "ICDR_2018 Chapter III Unit 87",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the duration for which the rights issue will be kept open for subscription. This is a critical legal obligation that needs to be explicitly stated in the document.",
+      "evidence": "",
+      "missing_details": "Maximum subscription period for the rights issue (must not exceed thirty days)",
+      "confidence": 1.0,
+      "pages": [
+        20,
+        22,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The rights issue shall be kept open for subscription for a maximum period of thirty days",
+        "\ud83d\udccb Required details: Maximum subscription period for the rights issue (must not exceed thirty days)",
+        "\ud83d\udcda Legal Reference: During the period the issue is open for subscription, no advertisement shall be released giving an impression that the issue has been fully subscribed..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In an issue made through the book building process under sub-regulation (2) of regulation 6, the allocation in the net offer category shall be not more than ten per cent. to retail individual investors.",
+      "citation": "ICDR_2018 Chapter II Unit 32",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the allocation of shares to retail individual investors in the net offer category for a book-building process. Therefore, it is impossible to determine if the legal obligation is satisfied.",
+      "evidence": "",
+      "missing_details": "Details on the allocation percentage for retail individual investors in the net offer category for a book-building issue.",
+      "confidence": 1.0,
+      "pages": [
+        4,
+        23,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In an issue made through the book building process under sub-regulation (2) of regulation 6, the allocation in the net offer category shall be not more than ten per cent. to retail individual investors.",
+        "\ud83d\udccb Required details: Details on the allocation percentage for retail individual investors in the net offer category for a book-building issue.",
+        "\ud83d\udcda Legal Reference: In an issue made through the book building process under sub-regulation (2) of regulation 6, the allocation in the net offer category shall be not mor..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The issuer shall redeem the convertible debt instruments in terms of the letter of offer.",
+      "citation": "ICDR_2018 Chapter III Unit 63",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the redemption of convertible debt instruments or compliance with conditions related to an initial public offer of convertible debt instruments, such as obtaining a credit rating. Therefore, the legal obligation to verify this aspect cannot be assessed.",
+      "evidence": "",
+      "missing_details": "Details on the redemption terms of convertible debt instruments, confirmation of credit rating obtained for convertible debt instruments.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        19,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The issuer shall redeem the convertible debt instruments in terms of the letter of offer.",
+        "\ud83d\udccb Required details: Details on the redemption terms of convertible debt instruments, confirmation of credit rating obtained for convertible debt instruments.",
+        "\ud83d\udcda Legal Reference: The issuer shall redeem the convertible debt instruments in terms of the offer document...."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The lead manager(s) shall ensure that the monies received in respect of the issue are released to the issuer in compliance with the provisions of Section 40 (3) of the Companies Act, 2013, as applicable.",
+      "citation": "ICDR_2018 Chapter II Unit 53",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information related to the lead manager's obligation to ensure that monies received in respect of the issue are released to the issuer in compliance with Section 40(3) of the Companies Act, 2013. This is a critical compliance point that needs to be addressed in the DRHP.",
+      "evidence": "",
+      "missing_details": "Details on the process and procedures for releasing issue proceeds to the issuer in compliance with Section 40(3) of the Companies Act, 2013, including timelines and checks to be performed by the lead manager.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        18,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The lead manager(s) shall ensure that the monies received in respect of the issue are released to the issuer in compliance with the provisions of Section 40 (3) of the Companies Act, 2013, as applicable.",
+        "\ud83d\udccb Required details: Details on the process and procedures for releasing issue proceeds to the issuer in compliance with Section 40(3) of the Companies Act, 2013, including timelines and checks to be performed by the lead manager.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall ensure availability of the offer document and other issue material including application forms to stock exchanges, syndicate..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "the equity shares allotted to the employees shall be subject to the provisions of lock-in as specified under the Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021.",
+      "citation": "ICDR_2018 Chapter II Unit 17",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the lock-in provisions for equity shares allotted to employees or for significant shareholders as stipulated by SEBI regulations. The content focuses on business operations, assets, and environmental initiatives, but not on shareholding lock-in requirements.",
+      "evidence": "",
+      "missing_details": "Details on lock-in provisions for employee-allotted equity shares, Specific lock-in periods and conditions as per SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021, Information on lock-in for shareholders holding over 20% pre-issue shareholding, Details on applicability of Regulation 17 and exceptions thereof.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        22,
+        25
+      ],
+      "priority": "CRITICAL",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: the equity shares allotted to the employees shall be subject to the provisions of lock-in as specified under the Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021.",
+        "\ud83d\udccb Required details: Details on lock-in provisions for employee-allotted equity shares, Specific lock-in periods and conditions as per SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021, Information on lock-in for shareholders holding over 20% pre-issue shareholding, Details on applicability of Regulation 17 and exceptions thereof.",
+        "\ud83d\udcda Legal Reference: the equity shares allotted to the employees shall be subject to the provisions of lock-in as specified under the Securities and Exchange Board of Indi..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "in case of a fast track issue of convertible debt instruments, a due diligence certificate from the debenture trustee as per Form B of Schedule V.",
+      "citation": "ICDR_2018 Chapter III Unit 100",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to a due diligence certificate from a debenture trustee as per Form B of Schedule V, which is a legal obligation for fast-track issues of convertible debt instruments. The document mentions certificates from statutory auditors but not the required debenture trustee certificate.",
+      "evidence": "",
+      "missing_details": "Due diligence certificate from the debenture trustee as per Form B of Schedule V",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        6,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: in case of a fast track issue of convertible debt instruments, a due diligence certificate from the debenture trustee as per Form B of Schedule V.",
+        "\ud83d\udccb Required details: Due diligence certificate from the debenture trustee as per Form B of Schedule V",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall submit a certificate confirming an agreement between the issuer and lead manager(s), a due diligence certificate as per Form..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The draft letter of offer and letter of offer shall contain all material disclosures which are true and adequate to enable the applicants to take an informed investment decision.",
+      "citation": "ICDR_2018 Chapter III Unit 70(1)",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "INSUFFICIENT",
+      "explanation": "The DRHP provides a breakdown of employee categories and numbers, and mentions marketing channels. However, it does not contain all material disclosures required for an informed investment decision regarding the company's business operations, market strategy, or risk factors. Specific details about the 'MARKFED' tender offer, the nature of products marketed, and the implications of marketing through a government undertaking are lacking. Furthermore, the DRHP references 'Forward Looking Statements' and 'Risk Factors' on specific pages but does not provide the content of these sections, making it impossible to assess their adequacy.",
+      "evidence": "Sr. No Category of Employees No. of Employees\n1 Accounts 05\n2 Office and Admin 06\n3 Marketing 12\n4 Plant 13\n5 Miscellaneous 04\nTotal 40\nOUR MARKET\nWe market our products through two channels.\nA. Through MARKFED (MP state co-operative Marketing Federation Limited) tender offer:\nPresently, the Company markets its product through tender of MARKFED (An undertaking of M.P.\nGovernment). The MARKFED sells our products through their agriculture societies spread all over Madhya\nPradesh and Chhattisgarh.",
+      "missing_details": "Detailed explanation of the MARKFED tender process and its terms, specific product details marketed, implications of government undertaking involvement, full content of 'Forward Looking Statements' section, full content of 'Risk Factors' section (specifically Risk Factor No 31), details on capacity utilization for FY 2022-23.",
+      "confidence": 0.9,
+      "pages": [
+        1,
+        6,
+        23
+      ],
+      "priority": "LOW",
+      "recommendations": [
+        "\u26a0\ufe0f  ENHANCE: Current disclosure is incomplete",
+        "\ud83d\udccb Add the following: Detailed explanation of the MARKFED tender process and its terms, specific product details marketed, implications of government undertaking involvement, full content of 'Forward Looking Statements' section, full content of 'Risk Factors' section (specifically Risk Factor No 31), details on capacity utilization for FY 2022-23.",
+        "\ud83d\udcc4 Current content location: Pages 1, 6, 23"
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "it has appointed at least one debenture trustee in accordance with the provisions of the Companies Act, 2013 and the Securities and Exchange Board of India (Debenture Trustees) Regulations, 1993;",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the appointment of a debenture trustee, which is a mandatory legal obligation under the Companies Act, 2013 and SEBI (Debenture Trustees) Regulations, 1993. Therefore, this obligation is not addressed in the given excerpts.",
+      "evidence": "",
+      "missing_details": "Information on the appointment of at least one debenture trustee, including their name, appointment date, and confirmation of compliance with relevant regulations.",
+      "confidence": 1.0,
+      "pages": [
+        6,
+        24,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: it has appointed at least one debenture trustee in accordance with the provisions of the Companies Act, 2013 and the Securities and Exchange Board of India (Debenture Trustees) Regulations, 1993;",
+        "\ud83d\udccb Required details: Information on the appointment of at least one debenture trustee, including their name, appointment date, and confirmation of compliance with relevant regulations.",
+        "\ud83d\udcda Legal Reference: it has appointed at least one debenture trustee in accordance with the provisions of the Companies Act, 2013 and the Securities and Exchange Board of ..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "If the specified securities are locked-in in terms of clause (a) of regulation 16, the loan has been granted to the issuer company or its subsidiary(ies) for the purpose of financing one or more of the objects of the issue and pledge of specified securities is one of the terms of sanction of the loan.",
+      "citation": "ICDR_2018 Chapter II Unit 21",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to locked-in securities, loans granted to the issuer or its subsidiaries for financing objects of the issue, or the pledge of specified securities as a term of loan sanction. Therefore, this legal obligation is not addressed in the given excerpts.",
+      "evidence": "",
+      "missing_details": "Information regarding locked-in securities as per regulation 16(a) or 16(b), details of loans granted to the issuer or its subsidiaries for financing objects of the issue, and confirmation of whether pledge of specified securities is a term of loan sanction.",
+      "confidence": 1.0,
+      "pages": [
+        6,
+        20,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: If the specified securities are locked-in in terms of clause (a) of regulation 16, the loan has been granted to the issuer company or its subsidiary(ies) for the purpose of financing one or more of the objects of the issue and pledge of specified securities is one of the terms of sanction of the loan.",
+        "\ud83d\udccb Required details: Information regarding locked-in securities as per regulation 16(a) or 16(b), details of loans granted to the issuer or its subsidiaries for financing objects of the issue, and confirmation of whether pledge of specified securities is a term of loan sanction.",
+        "\ud83d\udcda Legal Reference: If the specified securities are locked-in in terms of clause (a) of regulation 16, the loan has been granted to the issuer company or its subsidiary(i..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "If the issuer making an initial public offer, other than through the book building process, desires to have the issue underwritten, it shall appoint merchant bankers or stock brokers, registered with the Board, to act as underwriters.",
+      "citation": "ICDR_2018 Chapter II Unit 40(1)",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the appointment of merchant bankers or stock brokers as underwriters, nor does it mention any underwriting agreements. This is a mandatory requirement for an IPO not conducted through book building if underwriting is desired.",
+      "evidence": "",
+      "missing_details": "Details of appointment of merchant bankers or stock brokers as underwriters, Confirmation of underwriting agreement, Number of specified securities to be subscribed by underwriters on account of rejection of applications",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        18,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: If the issuer making an initial public offer, other than through the book building process, desires to have the issue underwritten, it shall appoint merchant bankers or stock brokers, registered with the Board, to act as underwriters.",
+        "\ud83d\udccb Required details: Details of appointment of merchant bankers or stock brokers as underwriters, Confirmation of underwriting agreement, Number of specified securities to be subscribed by underwriters on account of rejection of applications",
+        "\ud83d\udcda Legal Reference: If the issuer making an initial public offer, other than through the book building process, desires to have the issue underwritten, it shall appoint m..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The issuer shall, in case of an issue made through the book building process, appoint syndicate member(s) and in the case of any other issue, appoint bankers to issue, at centres in the manner specified in Schedule XII.",
+      "citation": "ICDR_2018 Chapter II Unit 23",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content discusses the issuer's sales process, competitive landscape, and environmental initiatives. However, it completely lacks any information regarding the appointment of syndicate members or bankers to the issue, which is a mandatory legal obligation for IPOs.",
+      "evidence": "",
+      "missing_details": "Appointment of syndicate member(s) for book building process or bankers to issue for other issues, as specified in Schedule XII.",
+      "confidence": 1.0,
+      "pages": [
+        18,
+        24,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The issuer shall, in case of an issue made through the book building process, appoint syndicate member(s) and in the case of any other issue, appoint bankers to issue, at centres in the manner specified in Schedule XII.",
+        "\ud83d\udccb Required details: Appointment of syndicate member(s) for book building process or bankers to issue for other issues, as specified in Schedule XII.",
+        "\ud83d\udcda Legal Reference: The issuer shall, in case of an issue made through the book building process, appoint syndicate member(s) and in the case of any other issue, appoint ..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The issuer shall announce a record date for the purpose of determining the shareholders eligible to apply for specified securities in the proposed rights issue for such period as may be specified in the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
+      "citation": "ICDR_2018 Chapter III Unit 68",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the announcement of a record date for a rights issue. The legal obligation requires the issuer to announce a record date for determining eligible shareholders for a rights issue. None of the provided excerpts address this specific requirement.",
+      "evidence": "",
+      "missing_details": "Announcement of a record date for determining shareholders eligible to apply for specified securities in the proposed rights issue.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        20,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The issuer shall announce a record date for the purpose of determining the shareholders eligible to apply for specified securities in the proposed rights issue for such period as may be specified in the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
+        "\ud83d\udccb Required details: Announcement of a record date for determining shareholders eligible to apply for specified securities in the proposed rights issue.",
+        "\ud83d\udcda Legal Reference: Unless otherwise provided in this Chapter, an issuer making an initial public offer of specified securities shall satisfy the conditions of this Chapt..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In the letter of offer and the abridged letter of offer, the issuer shall disclose the process of credit of rights entitlements in the demat account and renunciation thereof.",
+      "citation": "ICDR_2018 Chapter III Unit 70(7)",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the process of credit of rights entitlements in the demat account or the renunciation thereof. This is a mandatory disclosure requirement for the letter of offer and abridged letter of offer as per SEBI regulations.",
+      "evidence": "",
+      "missing_details": "Disclosure of the process of credit of rights entitlements in the demat account, Disclosure of the process of renunciation of rights entitlements",
+      "confidence": 1.0,
+      "pages": [
+        19,
+        20,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In the letter of offer and the abridged letter of offer, the issuer shall disclose the process of credit of rights entitlements in the demat account and renunciation thereof.",
+        "\ud83d\udccb Required details: Disclosure of the process of credit of rights entitlements in the demat account, Disclosure of the process of renunciation of rights entitlements",
+        "\ud83d\udcda Legal Reference: In case of rights issue of size less than fifty crores rupees, the issuer shall prepare the letter of offer in accordance with requirements as specifi..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "The monitoring agency shall submit its report to the issuer in the format specified in Schedule XI on a quarterly basis, till hundred per cent. of the proceeds of the issue actually raised have been utilised.",
+      "citation": "ICDR_2018 Chapter III Unit 82",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the appointment of a monitoring agency, the format of its reports (Schedule XI), or the quarterly submission and dissemination of these reports. Therefore, the obligation to comply with these requirements is not addressed.",
+      "evidence": "",
+      "missing_details": "Appointment of a monitoring agency, details of the monitoring agency's report format as per Schedule XI, quarterly submission of monitoring agency reports to the issuer, public dissemination of monitoring agency reports on the issuer's website and stock exchanges.",
+      "confidence": 1.0,
+      "pages": [
+        6,
+        22,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: The monitoring agency shall submit its report to the issuer in the format specified in Schedule XI on a quarterly basis, till hundred per cent. of the proceeds of the issue actually raised have been utilised.",
+        "\ud83d\udccb Required details: Appointment of a monitoring agency, details of the monitoring agency's report format as per Schedule XI, quarterly submission of monitoring agency reports to the issuer, public dissemination of monitoring agency reports on the issuer's website and stock exchanges.",
+        "\ud83d\udcda Legal Reference: The monitoring agency shall submit its report to the issuer in the format specified in Schedule XI on a quarterly basis, till hundred per cent. of the..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be not less than fifteen per cent. to non-institutional investors.",
+      "citation": "ICDR_2018 Chapter II Unit 32",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the allocation of shares in the net offer category to non-institutional investors, which is a mandatory requirement for book-built issues. Therefore, compliance with this legal obligation cannot be determined.",
+      "evidence": "",
+      "missing_details": "Details on the percentage allocation to non-institutional investors in the net offer category for the book-building process.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        23,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be not less than fifteen per cent. to non-institutional investors.",
+        "\ud83d\udccb Required details: Details on the percentage allocation to non-institutional investors in the net offer category for the book-building process.",
+        "\ud83d\udcda Legal Reference: In an issue made through the book building process under sub-regulation (1) of regulation 6, the allocation in the net offer category shall be not les..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "the lead manager(s) shall ensure the payment of interest at the rate of fifteen per cent. per annum to the shareholders within such time as disclosed in the draft letter of offer and the letter of offer.",
+      "citation": "ICDR_2018 Chapter III Unit 91",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the lead manager's obligation to ensure the payment of interest at a rate of fifteen per cent. per annum to shareholders. This specific disclosure is a crucial part of the offer document and is not present in the sections provided.",
+      "evidence": "",
+      "missing_details": "Disclosure of interest payment rate and timeline for shareholders, as per the legal obligation.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        22,
+        23
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: the lead manager(s) shall ensure the payment of interest at the rate of fifteen per cent. per annum to the shareholders within such time as disclosed in the draft letter of offer and the letter of offer.",
+        "\ud83d\udccb Required details: Disclosure of interest payment rate and timeline for shareholders, as per the legal obligation.",
+        "\ud83d\udcda Legal Reference: The lead manager(s) shall call upon the issuer, its promoters and its directors or in case of an offer for sale, also the selling shareholders, to ful..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "if the issue proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that where security is already created on such assets in favour of any existing lender or security trustee or the issue of convertible debt instruments is proposed to be secured by creation of security on a leasehold land, the consent of such lender or security trustee or lessor for a second or pari passu charge has been obtained and submitted to the debenture trustee before the opening of the issue",
+      "citation": "ICDR_2018 Chapter III Unit 63",
+      "chapter": "Chapter III",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information regarding the creation of charges or security on assets for secured convertible debt instruments. Therefore, it is impossible to determine if the consent of existing lenders or lessors for a second or pari passu charge has been obtained, or if the security cover has been adjusted for prior charges, as required by the legal obligations.",
+      "evidence": "",
+      "missing_details": "Details on any proposed charges or security for convertible debt instruments, consent from existing lenders/lessors for second/pari passu charges if applicable, and calculation of security cover after reduction of prior liabilities if applicable.",
+      "confidence": 1.0,
+      "pages": [
+        12,
+        22,
+        25
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: if the issue proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that where security is already created on such assets in favour of any existing lender or security trustee or the issue of convertible debt instruments is proposed to be secured by creation of security on a leasehold land, the consent of such lender or security trustee or lessor for a second or pari passu charge has been obtained and submitted to the debenture trustee before the opening of the issue",
+        "\ud83d\udccb Required details: Details on any proposed charges or security for convertible debt instruments, consent from existing lenders/lessors for second/pari passu charges if applicable, and calculation of security cover after reduction of prior liabilities if applicable.",
+        "\ud83d\udcda Legal Reference: if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that where sec..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    },
+    {
+      "obligation": "In an issue made other than through the book building process, the allocation in the net offer category shall be remaining to individual applicants other than retail individual investors.",
+      "citation": "ICDR_2018 Chapter II Unit 32",
+      "chapter": "Chapter II",
+      "mandatory": true,
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the allocation of shares in the net offer category for issues made other than through the book building process. Specifically, it does not address how the remaining allocation after retail individual investors will be distributed among other individual applicants or other investors like corporate bodies or institutions.",
+      "evidence": "",
+      "missing_details": "Details on the allocation of the net offer category to individual applicants other than retail individual investors, Details on the allocation of the net offer category to other investors including corporate bodies or institutions.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        18,
+        24
+      ],
+      "priority": "HIGH",
+      "recommendations": [
+        "\u26a0\ufe0f  IMMEDIATE ACTION: Add complete disclosure for: In an issue made other than through the book building process, the allocation in the net offer category shall be remaining to individual applicants other than retail individual investors.",
+        "\ud83d\udccb Required details: Details on the allocation of the net offer category to individual applicants other than retail individual investors, Details on the allocation of the net offer category to other investors including corporate bodies or institutions.",
+        "\ud83d\udcda Legal Reference: In an issue made other than through the book building process, the allocation in the net offer category shall be remaining to individual applicants ot..."
+      ],
+      "agent_path": [
+        "INITIALIZED",
+        "RETRIEVAL",
+        "ANALYSIS",
+        "VALIDATION",
+        "SYNTHESIS"
+      ],
+      "reanalysis_count": 0
+    }
+  ],
+  "chapters_checked": [
+    "Chapter II"
+  ],
+  "adaptive_expansion": {
+    "initial_batch": 30,
+    "expanded_by": 30,
+    "expansion_reason": "High missing rate: 90%",
+    "total_checked": 60
+  },
+  "completed_at": "2025-12-30T14:21:10.063811",
+  "processing_time_seconds": 117,
+  "created_at": "2025-12-30T14:19:12.340687"
+}

@@ -1,0 +1,133 @@
+{
+  "status": "completed",
+  "job_id": "5f6e41d5-86b1-425a-b200-dc0935f78e79",
+  "user_email": "local_user@localhost",
+  "mode": "STANDARD",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_II_RISK_FACTORS",
+  "drhp_chapter_name": "CHAPTER - II - RISK FACTORS",
+  "document_name": "Risk_factor.pdf",
+  "total_requirements": 6,
+  "summary": {
+    "PRESENT": 0,
+    "MISSING": 0,
+    "UNCLEAR": 5,
+    "INSUFFICIENT": 1
+  },
+  "priority_summary": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 5,
+    "LOW": 1
+  },
+  "items": [
+    {
+      "requirement": "Top 10 risk factors prominently disclosed",
+      "status": "UNCLEAR",
+      "explanation": "Could not verify: Unterminated string starting at: line 3 column 20 (char 51)",
+      "evidence": "[User DRHP - Page 1]: CHAPTER - II - RISK FACTORS An investment in our Equity Shares involves a certain degree of risk. You should carefully consider all the information in this Draft Red Herring Pros",
+      "missing_details": "Verification failed",
+      "pages": [
+        1,
+        10
+      ],
+      "confidence": 0.5,
+      "priority": "MEDIUM",
+      "citation": "Schedule VIII - Part B - Risk Factors",
+      "category": "Content Disclosure",
+      "legal_citation": "",
+      "legal_similarity": 0.0
+    },
+    {
+      "requirement": "Risk factors categorized (internal/external)",
+      "status": "INSUFFICIENT",
+      "explanation": "The provided DRHP content introduces the risk factors and lists an example, but it does not explicitly categorize them as 'internal' or 'external' as required by SEBI ICDR Regulations, Schedule VIII, Part A, Section I, Clause 1(a). While individual risks might implicitly fall into one category, the overall presentation lacks the mandated categorization.",
+      "evidence": "CHAPTER - II - RISK FACTORS An investment in our Equity Shares involves a certain degree of risk. You should carefully consider all the information in this Draft Red Herring Prospectus, including the risks and uncertainties described below...",
+      "missing_details": [
+        "Explicit categorization of all risk factors under distinct headings such as 'Internal Risk Factors' and 'External Risk Factors' or similar, as per SEBI ICDR Regulations.",
+        "Each risk factor should be clearly placed under its respective internal or external category."
+      ],
+      "pages": [
+        1,
+        10
+      ],
+      "confidence": 0.9,
+      "priority": "LOW",
+      "citation": "Schedule VIII - Part B - Risk Factors",
+      "category": "Content Disclosure",
+      "legal_citation": "",
+      "legal_similarity": 0.0
+    },
+    {
+      "requirement": "No generic/boilerplate risks",
+      "status": "UNCLEAR",
+      "explanation": "Could not verify: Unterminated string starting at: line 3 column 20 (char 46)",
+      "evidence": "[User DRHP - Page 1]: CHAPTER - II - RISK FACTORS An investment in our Equity Shares involves a certain degree of risk. You should carefully consider all the information in this Draft Red Herring Pros",
+      "missing_details": "Verification failed",
+      "pages": [
+        1,
+        10
+      ],
+      "confidence": 0.5,
+      "priority": "MEDIUM",
+      "citation": "Schedule VIII - Part B - Risk Factors",
+      "category": "Content Disclosure",
+      "legal_citation": "",
+      "legal_similarity": 0.0
+    },
+    {
+      "requirement": "Each risk factor substantiated with evidence",
+      "status": "UNCLEAR",
+      "explanation": "Could not verify: Unterminated string starting at: line 3 column 20 (char 51)",
+      "evidence": "[User DRHP - Page 1]: Herring Prospectus. Unless otherwise indicated or context requires otherwise, the financial statement included herein is derived from our Restated Consolidated Financial Statemen",
+      "missing_details": "Verification failed",
+      "pages": [
+        1,
+        10
+      ],
+      "confidence": 0.5,
+      "priority": "MEDIUM",
+      "citation": "Schedule VIII - Part B - Risk Factors",
+      "category": "Content Disclosure",
+      "legal_citation": "",
+      "legal_similarity": 0.0
+    },
+    {
+      "requirement": "Past instances of risks materialized disclosed",
+      "status": "UNCLEAR",
+      "explanation": "Could not verify: Unterminated string starting at: line 3 column 20 (char 46)",
+      "evidence": "[User DRHP - Page 1]: Herring Prospectus. Unless otherwise indicated or context requires otherwise, the financial statement included herein is derived from our Restated Consolidated Financial Statemen",
+      "missing_details": "Verification failed",
+      "pages": [
+        1,
+        10
+      ],
+      "confidence": 0.5,
+      "priority": "MEDIUM",
+      "citation": "Schedule VIII - Part B - Risk Factors",
+      "category": "Content Disclosure",
+      "legal_citation": "",
+      "legal_similarity": 0.0
+    },
+    {
+      "requirement": "Adjectives must be source-backed or removed",
+      "status": "UNCLEAR",
+      "explanation": "Could not verify: Unterminated string starting at: line 3 column 20 (char 51)",
+      "evidence": "[User DRHP - Page 1]: CHAPTER - II - RISK FACTORS An investment in our Equity Shares involves a certain degree of risk. You should carefully consider all the information in this Draft Red Herring Pros",
+      "missing_details": "Verification failed",
+      "pages": [
+        1,
+        10
+      ],
+      "confidence": 0.5,
+      "priority": "MEDIUM",
+      "citation": "Schedule VIII - Part B - Risk Factors",
+      "category": "Content Disclosure",
+      "legal_citation": "",
+      "legal_similarity": 0.0
+    }
+  ],
+  "completed_at": "2025-12-28T17:22:43.307923",
+  "processing_time_seconds": 48,
+  "created_at": "2025-12-28T17:22:43.308802+00:00"
+}

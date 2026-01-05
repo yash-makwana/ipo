@@ -1,0 +1,139 @@
+{
+  "status": "completed",
+  "job_id": "8b5ebdaa-11c5-4c52-932c-eb45f681b779",
+  "user_email": "local_user@localhost",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "Eco_fuel_Systems_India_Limited_DRHP.pdf",
+  "company_name": "the Company",
+  "company_profile": {
+    "revenue": 0,
+    "employees": 0,
+    "business_type": "automotive"
+  },
+  "ipo_structure": {
+    "has_convertible_debt": false,
+    "has_warrants": false,
+    "has_secured_instruments": false,
+    "has_sr_shares": false,
+    "has_vc_or_pe": false,
+    "has_employee_equity": false,
+    "mentions_promoter_contribution": false,
+    "mentions_lockin": false,
+    "has_rights_issue": false,
+    "has_qip": false
+  },
+  "nse_queries": [
+    {
+      "type": "nse_content_query",
+      "page": 8,
+      "observation": "On Page 8 of the DRHP, kindly clarify the rationale for the exclusion of corporate clients from the revenue bifurcation. Further, provide a revised draft of disclosures along with confirmation that the same will be updated in RHP, if applicable.",
+      "severity": "Major",
+      "category": "Customer Revenue Disclosure"
+    },
+    {
+      "type": "nse_content_query",
+      "page": 2,
+      "observation": "On Page 2 of the DRHP, kindly provide the attrition rate of the Company for the past three fiscal years. Additionally, kindly consider the inclusion of a risk factor pertaining to the same in case the Company possesses a high attrition rate. Further, provide a draft of the revised disclosure along with confirmation that the same will be included in the RHP.",
+      "severity": "Major",
+      "category": "Human Resources Disclosure",
+      "table_present": false
+    },
+    {
+      "type": "nse_content_query",
+      "page": 2,
+      "observation": "On Page 2 of the DRHP, kindly confirm whether the Company is currently engaged in any research and development (R&D) activities. If yes, kindly provide additional details including the number of employees engaged in the said department and the expenditure incurred on the same in the past three years. Further, provide a revised draft of disclosures along with confirmation that the same will be updated in RHP.",
+      "severity": "Observation",
+      "category": "R&D Disclosure"
+    },
+    {
+      "type": "nse_content_query",
+      "page": 2,
+      "observation": "On Page 2 of the DRHP, with respect to the Insurance coverage of the Company, kindly provide the three-year data for (i) losses vis-a-vis insurance cover; and (ii) any past instance of a claim exceeding liability insurance cover, as applicable. Additionally, kindly provide the details of the insurance coverage of the Company as a percentage of the Tangible Assets. Kindly update the same. Further, provide a draft of the revised disclosure along with confirmation that the same will be included in the RHP.",
+      "severity": "Observation",
+      "category": "Insurance Disclosure"
+    },
+    {
+      "type": "nse_content_query",
+      "page": 1,
+      "observation": "On Page 1 of the DRHP, it is noted that the Company had budgeted for CSR expenditure in FY24. Kindly confirm whether the allocated amount was expended and specify the quantum thereof. Additionally, kindly confirm whether the Company has undertaken CSR expenditure in FY25.",
+      "severity": "Clarification",
+      "category": "CSR Disclosure"
+    },
+    {
+      "type": "nse_content_query",
+      "page": 1,
+      "observation": "On Page 1 and Page 8 of the DRHP, differing figures have been disclosed in relation to Revenue (\u20b98,102.62 Lakh vs \u20b97,572.38 Lakh). Kindly clarify the discrepancy and ensure consistency across the document. Further, provide a revised draft of disclosures along with confirmation that the same will be updated in RHP.",
+      "severity": "Major",
+      "category": "Cross-Page Inconsistency",
+      "details": {
+        "label": "Revenue",
+        "pages": [
+          1,
+          2,
+          5,
+          8
+        ],
+        "conflicting_values": [
+          "\u20b98,102.62 Lakh",
+          "\u20b97,572.38 Lakh"
+        ]
+      }
+    },
+    {
+      "type": "nse_content_query",
+      "page": 2,
+      "observation": "On Page 2 and Page 6 of the DRHP, differing figures have been disclosed in relation to Customer Metrics (19.04% vs 11.14%). Kindly clarify the discrepancy and ensure consistency across the document. Further, provide a revised draft of disclosures along with confirmation that the same will be updated in RHP.",
+      "severity": "Major",
+      "category": "Cross-Page Inconsistency",
+      "details": {
+        "label": "Customer Metrics",
+        "pages": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "conflicting_values": [
+          "19.04%",
+          "11.14%"
+        ]
+      }
+    },
+    {
+      "type": "nse_content_query",
+      "page": 2,
+      "observation": "On Page 2 and Page 7 of the DRHP, differing figures have been disclosed in relation to Dealer Network (80.28% vs 87.89%). Kindly clarify the discrepancy and ensure consistency across the document. Further, provide a revised draft of disclosures along with confirmation that the same will be updated in RHP.",
+      "severity": "Major",
+      "category": "Cross-Page Inconsistency",
+      "details": {
+        "label": "Dealer Network",
+        "pages": [
+          2,
+          7
+        ],
+        "conflicting_values": [
+          "80.28%",
+          "87.89%"
+        ]
+      }
+    }
+  ],
+  "total_queries": 8,
+  "internal_stats": {
+    "total_checked": 30,
+    "total_skipped": 0
+  },
+  "total_requirements": 8,
+  "summary": {
+    "total": 8,
+    "Major": 5,
+    "Observation": 2,
+    "Clarification": 1
+  },
+  "completed_at": "2026-01-01T11:39:39.290303+00:00",
+  "processing_time_seconds": 49,
+  "created_at": "2026-01-01T11:38:49.857653+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "files_evaluated": 0,
+    "expectation_stats": {},
+    "files": {}
+  },
+  "metrics": {
+    "expectation_coverage_rate": 0.0,
+    "mean_missed_rate_for_triggered": 0.0,
+    "files_evaluated": 0
+  },
+  "generated_at": 1767447954.950541
+}

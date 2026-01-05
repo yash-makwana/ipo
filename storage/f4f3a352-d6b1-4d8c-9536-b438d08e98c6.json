@@ -1,0 +1,164 @@
+{
+  "status": "completed",
+  "job_id": "f4f3a352-d6b1-4d8c-9536-b438d08e98c6",
+  "user_email": "local_user@localhost",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "Boarding_Pass(GOI-BLR).pdf",
+  "company_name": "the Company",
+  "company_profile": {
+    "revenue": 0,
+    "employees": 0,
+    "business_type": "technology"
+  },
+  "ipo_structure": {
+    "has_convertible_debt": false,
+    "has_warrants": false,
+    "has_secured_instruments": false,
+    "has_sr_shares": false,
+    "has_vc_or_pe": false,
+    "has_employee_equity": false,
+    "mentions_promoter_contribution": false,
+    "mentions_lockin": false,
+    "has_rights_issue": false,
+    "has_qip": false
+  },
+  "nse_queries": [
+    {
+      "type": "hygiene",
+      "page": "1",
+      "observation": "On page no. 1, acronym(s) 'BLR, IX' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "industry_split",
+      "page": "1",
+      "observation": "Refer to financial section of the DRHP and provide/include details of breakup of industry-wise revenue from operations split for the DRHP period (e.g., Automotive, Appliances, Industrial, etc.). Provide this in tabular format showing \u20b9 and % contribution for past 3 FYs and stub period.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "INDUSTRY_REVENUE_SPLIT",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    },
+    {
+      "type": "import_split",
+      "page": "1",
+      "observation": "Incorporate the details of country wise import purchases value and % terms for the DRHP period. Provide revised draft.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "IMPORT_COUNTRY_SPLIT",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    },
+    {
+      "type": "table_totals",
+      "page": "168",
+      "observation": "Refer page 168 include the row of total in all tables. Ensure all financial tables throughout the DRHP include a 'Total' row/column for arithmetic accuracy.",
+      "severity": "Hygiene",
+      "category": "Presentation",
+      "issue_id": "MISSING_TABLE_TOTALS",
+      "regulation_ref": "ICDR Regulations - Format"
+    },
+    {
+      "type": "trademark_details",
+      "page": "1",
+      "observation": "Refer to the trademark details in business chapter, kindly include the registration number, registration date, and validity period details for all trademarks in the DRHP. Provide this in tabular format showing: (a) Trademark name; (b) Class; (c) Registration No.; (d) Registration date; (e) Validity till; and (f) Territory. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Legal",
+      "issue_id": "TRADEMARK_DETAILS",
+      "regulation_ref": "ICDR Regulations - Legal Disclosure"
+    },
+    {
+      "type": "scrap_details",
+      "page": "1",
+      "observation": "Refer to manufacturing process details, include the details of scrap and wastages details. Quantify the scrap generation %, wastage %, and yield loss analysis for the past 3 FYs. Provide the draft and incorporate the same in DRHP.",
+      "severity": "Observation",
+      "category": "Operational",
+      "issue_id": "SCRAP_DETAILS_MISSING",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "corporate_structure",
+      "page": "General",
+      "observation": "Kindly provide the rationale for the current corporate structure. Explain why the business is housed in the Issuer Company vs Subsidiaries/Group Companies. Provide revised draft.",
+      "severity": "Material",
+      "category": "Substantiation",
+      "issue_id": "CORPORATE_STRUCTURE_RATIONALE",
+      "regulation_ref": "ICDR Regulations - Corporate Structure"
+    },
+    {
+      "type": "logistics_mechanism",
+      "page": "General",
+      "observation": "Kindly disclose the detailed logistics mechanism followed by the Company. Explain the flow of goods from Factory -> Depot/Warehouse -> Dealer/Distributor -> Retailer. Clarify who bears the freight/transportation risk at each leg (Company or Customer). Provide revised draft.",
+      "severity": "Major",
+      "category": "Operational",
+      "issue_id": "LOGISTICS_MECHANISM_DISCLOSURE",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "process_flowchart",
+      "page": "General",
+      "observation": "Kindly include a detailed business process flowchart covering the entire value chain from Raw Material Procurement to Finished Goods Dispatch. Ensure key control points and quality checks are highlighted in the flowchart. Provide revised draft.",
+      "severity": "Major",
+      "category": "Operational",
+      "issue_id": "PROCESS_FLOWCHART_MISSING",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "hr_metrics",
+      "page": "General",
+      "observation": "Kindly provide the Attrition Rate (%) for the last 3 financial years, split between Senior Management and Junior Staff/Workers. Also confirm whether the Company is fully compliant with EPF and ESIC payments for all eligible employees (including contract labour). Provide revised draft.",
+      "severity": "Material",
+      "category": "Forensic",
+      "issue_id": "HR_METRICS_ATTRITION_EPF",
+      "regulation_ref": "ICDR Regulations - Litigation/Compliance"
+    },
+    {
+      "type": "insurance_adequacy",
+      "page": "General",
+      "observation": "Kindly provide a table showing total insurance cover vis-a-vis total value of assets (Property, Plant & Equipment + Inventory). Quantify the % of assets covered implies adequacy. Disclose details of any insurance claims rejected in the last 3 years. Provide revised draft.",
+      "severity": "Major",
+      "category": "Forensic",
+      "issue_id": "INSURANCE_ADEQUACY",
+      "regulation_ref": "ICDR Regulations - Risk Factors"
+    },
+    {
+      "type": "csr_compliance",
+      "page": "General",
+      "observation": "Kindly provide details of CSR obligations vs actual CSR spend for the last 3 financial years. Confirm if the Company meets the 2% average net profit criteria. If there is any shortfall/unspent amount, provide reasons and details of transfer to specified funds. Provide revised draft.",
+      "severity": "Material",
+      "category": "Forensic",
+      "issue_id": "CSR_COMPLIANCE_DETAILS",
+      "regulation_ref": "ICDR Regulations - Compliance"
+    },
+    {
+      "type": "state_revenue_explicit",
+      "page": "Financials",
+      "observation": "Kindly format the revenue disclosure to explicitly show 'State-wise Revenue Bifurcation' for top 10 states for the last 3 financial years. Ensure this reconciles with GST returns data. Provide revised draft.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "STATE_REVENUE_EXPLICIT_FORCE",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    }
+  ],
+  "nse_engine_gemini_enabled": false,
+  "total_queries": 13,
+  "internal_stats": {
+    "total_checked": 0,
+    "total_skipped": 0,
+    "exhaustive_searches": 0
+  },
+  "total_requirements": 13,
+  "summary": {
+    "total": 13,
+    "Major": 3,
+    "Observation": 1,
+    "Clarification": 0
+  },
+  "completed_at": "2026-01-05T04:30:35.020886+00:00",
+  "processing_time_seconds": 0,
+  "created_at": "2026-01-05T04:30:34.962704+00:00"
+}

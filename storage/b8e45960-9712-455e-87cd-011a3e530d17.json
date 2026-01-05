@@ -1,0 +1,192 @@
+{
+  "status": "completed",
+  "job_id": "b8e45960-9712-455e-87cd-011a3e530d17",
+  "user_email": "local_user@localhost",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "Employee - NDA agreement (1) (2).pdf",
+  "company_name": "the Company",
+  "company_profile": {
+    "revenue": 0,
+    "employees": 0,
+    "business_type": "technology"
+  },
+  "ipo_structure": {
+    "has_convertible_debt": false,
+    "has_warrants": false,
+    "has_secured_instruments": false,
+    "has_sr_shares": false,
+    "has_vc_or_pe": false,
+    "has_employee_equity": false,
+    "mentions_promoter_contribution": false,
+    "mentions_lockin": false,
+    "has_rights_issue": false,
+    "has_qip": false
+  },
+  "nse_queries": [
+    {
+      "type": "purpose_interrogation",
+      "page": "1",
+      "observation": "On page no. 1, the disclosure mentions: 'shall have no obligation to keep it\n               confidential if'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "hygiene",
+      "page": "3",
+      "observation": "On page no. 3, acronym(s) 'VIII' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "4",
+      "observation": "On page no. 4, acronym(s) 'IN' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "industry_split",
+      "page": "1",
+      "observation": "Refer to financial section of the DRHP and provide/include details of breakup of industry-wise revenue from operations split for the DRHP period (e.g., Automotive, Appliances, Industrial, etc.). Provide this in tabular format showing \u20b9 and % contribution for past 3 FYs and stub period.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "INDUSTRY_REVENUE_SPLIT",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    },
+    {
+      "type": "import_split",
+      "page": "1",
+      "observation": "Incorporate the details of country wise import purchases value and % terms for the DRHP period. Provide revised draft.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "IMPORT_COUNTRY_SPLIT",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    },
+    {
+      "type": "table_totals",
+      "page": "168",
+      "observation": "Refer page 168 include the row of total in all tables. Ensure all financial tables throughout the DRHP include a 'Total' row/column for arithmetic accuracy.",
+      "severity": "Hygiene",
+      "category": "Presentation",
+      "issue_id": "MISSING_TABLE_TOTALS",
+      "regulation_ref": "ICDR Regulations - Format"
+    },
+    {
+      "type": "trademark_details",
+      "page": "1",
+      "observation": "Refer to the trademark details in business chapter, kindly include the registration number, registration date, and validity period details for all trademarks in the DRHP. Provide this in tabular format showing: (a) Trademark name; (b) Class; (c) Registration No.; (d) Registration date; (e) Validity till; and (f) Territory. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Legal",
+      "issue_id": "TRADEMARK_DETAILS",
+      "regulation_ref": "ICDR Regulations - Legal Disclosure"
+    },
+    {
+      "type": "property_area",
+      "page": "2",
+      "observation": "Refer to the property section on page 2, kindly include the area details (i.e. sq.ft., sq. meters, acres etc.) for all properties (owned and leased). Provide this in the property table along with: (a) built-up area; (b) land area; (c) unit of measurement; and (d) usage (manufacturing/office/warehouse). Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Legal",
+      "issue_id": "PROPERTY_AREA_DETAILS",
+      "regulation_ref": "ICDR Regulations - Property Disclosure"
+    },
+    {
+      "type": "scrap_details",
+      "page": "1",
+      "observation": "Refer to manufacturing process details, include the details of scrap and wastages details. Quantify the scrap generation %, wastage %, and yield loss analysis for the past 3 FYs. Provide the draft and incorporate the same in DRHP.",
+      "severity": "Observation",
+      "category": "Operational",
+      "issue_id": "SCRAP_DETAILS_MISSING",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "arms_length_sharp",
+      "page": "General",
+      "observation": "Regarding agreements (e.g. lease, purchase, sales), confirm they are not prejudicial to the interest of the Issuer. Explicitly confirm they are at arm's length. If any agreement is not at arm's length, disclose the justification and Audit Committee approval. Provide revised draft.",
+      "severity": "Material",
+      "category": "Legal",
+      "issue_id": "AGREEMENT_ARMS_LENGTH_SHARP",
+      "regulation_ref": "ICDR Regulations - RPTs"
+    },
+    {
+      "type": "logistics_mechanism",
+      "page": "General",
+      "observation": "Kindly disclose the detailed logistics mechanism followed by the Company. Explain the flow of goods from Factory -> Depot/Warehouse -> Dealer/Distributor -> Retailer. Clarify who bears the freight/transportation risk at each leg (Company or Customer). Provide revised draft.",
+      "severity": "Major",
+      "category": "Operational",
+      "issue_id": "LOGISTICS_MECHANISM_DISCLOSURE",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "process_flowchart",
+      "page": "General",
+      "observation": "Kindly include a detailed business process flowchart covering the entire value chain from Raw Material Procurement to Finished Goods Dispatch. Ensure key control points and quality checks are highlighted in the flowchart. Provide revised draft.",
+      "severity": "Major",
+      "category": "Operational",
+      "issue_id": "PROCESS_FLOWCHART_MISSING",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "hr_metrics",
+      "page": "General",
+      "observation": "Kindly provide the Attrition Rate (%) for the last 3 financial years, split between Senior Management and Junior Staff/Workers. Also confirm whether the Company is fully compliant with EPF and ESIC payments for all eligible employees (including contract labour). Provide revised draft.",
+      "severity": "Material",
+      "category": "Forensic",
+      "issue_id": "HR_METRICS_ATTRITION_EPF",
+      "regulation_ref": "ICDR Regulations - Litigation/Compliance"
+    },
+    {
+      "type": "insurance_adequacy",
+      "page": "General",
+      "observation": "Kindly provide a table showing total insurance cover vis-a-vis total value of assets (Property, Plant & Equipment + Inventory). Quantify the % of assets covered implies adequacy. Disclose details of any insurance claims rejected in the last 3 years. Provide revised draft.",
+      "severity": "Major",
+      "category": "Forensic",
+      "issue_id": "INSURANCE_ADEQUACY",
+      "regulation_ref": "ICDR Regulations - Risk Factors"
+    },
+    {
+      "type": "csr_compliance",
+      "page": "General",
+      "observation": "Kindly provide details of CSR obligations vs actual CSR spend for the last 3 financial years. Confirm if the Company meets the 2% average net profit criteria. If there is any shortfall/unspent amount, provide reasons and details of transfer to specified funds. Provide revised draft.",
+      "severity": "Material",
+      "category": "Forensic",
+      "issue_id": "CSR_COMPLIANCE_DETAILS",
+      "regulation_ref": "ICDR Regulations - Compliance"
+    },
+    {
+      "type": "state_revenue_explicit",
+      "page": "Financials",
+      "observation": "Kindly format the revenue disclosure to explicitly show 'State-wise Revenue Bifurcation' for top 10 states for the last 3 financial years. Ensure this reconciles with GST returns data. Provide revised draft.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "STATE_REVENUE_EXPLICIT_FORCE",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    }
+  ],
+  "nse_engine_gemini_enabled": false,
+  "total_queries": 16,
+  "internal_stats": {
+    "total_checked": 0,
+    "total_skipped": 0,
+    "exhaustive_searches": 0
+  },
+  "total_requirements": 16,
+  "summary": {
+    "total": 16,
+    "Major": 3,
+    "Observation": 1,
+    "Clarification": 0
+  },
+  "completed_at": "2026-01-04T19:48:32.625177+00:00",
+  "processing_time_seconds": 0,
+  "created_at": "2026-01-04T19:48:32.430374+00:00"
+}

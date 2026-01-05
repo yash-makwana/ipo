@@ -1,0 +1,432 @@
+{
+  "status": "completed",
+  "job_id": "7f1253ed-f82c-46bf-bc02-1ce99203cc8a",
+  "user_email": "local_user@localhost",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "tri_business.pdf",
+  "company_name": "Trimoorty Foamtech Limited",
+  "company_profile": {
+    "revenue": 0,
+    "employees": 0,
+    "business_type": "automotive"
+  },
+  "ipo_structure": {
+    "has_convertible_debt": false,
+    "has_warrants": false,
+    "has_secured_instruments": false,
+    "has_sr_shares": false,
+    "has_vc_or_pe": false,
+    "has_employee_equity": false,
+    "mentions_promoter_contribution": false,
+    "mentions_lockin": true,
+    "has_rights_issue": false,
+    "has_qip": false
+  },
+  "nse_queries": [
+    {
+      "type": "nse_content_query",
+      "page": "1",
+      "observation": "On page no. 1, it is mentioned the disclosure regarding unnamed foreign entities. The Company mentions foreign business partner(s) without providing complete names and details. Kindly provide: (a) complete name and registration details of such entity; (b) nature and terms of business arrangement; (c) dependency analysis and alternate arrangements, if any. Provide revised draft along with confirmation that the same shall be updated in prospectus.",
+      "severity": "Material",
+      "category": "Compliance",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "UNNAMED_FOREIGN_ENTITIES",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Government and Other Approvals"
+    },
+    {
+      "type": "nse_content_query",
+      "page": "General",
+      "observation": "Kindly disclose the detailed logistics mechanism followed by the Company. Explain the flow of goods from Factory -> Depot/Warehouse -> Dealer/Distributor -> Retailer. Kindly elaborate and explain the statement 'Custom Machinery for International Clients'. Clarify the CAPEX and timeline for the same.",
+      "severity": "Material",
+      "category": "Narrative",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "LOGISTICS_MECHANISM_DISCLOSURE",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "merged_from": 2,
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_content_query",
+      "page": "General",
+      "observation": "Kindly provide a table showing total insurance cover vis-a-vis total value of assets (Property, Plant & Equipment + Inventory). Quantify the % of assets covered implies adequacy. Disclose details of any insurance claims rejected in the last 3 years. Provide revised draft. Provide revised draft.",
+      "severity": "Material",
+      "category": "Narrative",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "INSURANCE_ADEQUACY",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_content_query",
+      "page": "General",
+      "observation": "Kindly include the state-wise dependency of domestic purchases for the DRHP period. Disclosure should map sourcing % by State (not just supplier names). Provide revised draft. Provide revised draft.",
+      "severity": "Material",
+      "category": "Financial",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "STATE_PURCHASE_DEPENDENCY",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Risk Factors"
+    },
+    {
+      "type": "nse_content_query",
+      "page": "8",
+      "observation": "Elaborate and explain the statement: 'we plan to invest in product development (including R&D, safety testing, and packaging design), branding (visual identity, storytelling, and intell...'. Refer page 8 of the DRHP. These include automotive, consumer durables, construction equipment, agricultural machinery, health care and educational toys.\" However, the subsequent detailed descriptions only elaborate on the \"Automotive Sector,\" \"Consumer Durables and Home Appliances,\" and \"Construction Equipment and Infrastructure.\" The specific operational details, revenue contribution, or strategic focus for \"agricultural machinery,\" \"health care,\" and \"educational toys\" are not provided. Provide the rationale for listing these sectors as diversified operations without corresponding disclosure of their contribution or operational details.",
+      "severity": "Material",
+      "category": "Statement",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "STATEMENT_ELABORATION",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "merged_from": 3,
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "page": "9",
+      "text": "On page 9, the Company mentions business partner without providing the name. Kindly provide the complete name of the business partner. Provide revised draft along with confirmation that the same shall be updated in the prospectus.",
+      "type": "TYPE_UNNAMED_ENTITY",
+      "issue_id": "UNNAMED_BUSINESS_PARTNER",
+      "severity": "Material",
+      "category": "Disclosure",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "observation": "",
+      "merged_from": 2,
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_expectation_question",
+      "page": "N/A",
+      "observation": "Provide the RPT summary table for the last 3 FYs including counterparties and amounts, or confirm if none exist.",
+      "severity": "Material",
+      "category": "Expectation",
+      "locked": true,
+      "issue_id": "related_party_transactions_disclosure",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "contradiction",
+      "page": "24",
+      "observation": "On page no. 24, there appears to be a numerical inconsistency regarding CUSTOMERS. The disclosure mentions conflicting values: 7 vs 8 vs 9 vs 10. Kindly reconcile this factual contradiction and provide revised draft along with confirmation that the same shall be updated in the final prospectus.",
+      "severity": "Critical - Valuation",
+      "category": "Forensic",
+      "issue_id": "CONTRADICTION_NUMERIC",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "contradiction_details": {
+        "type": "NUMERIC",
+        "entity": "CUSTOMERS",
+        "values": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      }
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "20",
+      "observation": "On page no. 20, dependency is mentioned: 'based on actual production during the relevant fiscal year / period divided\n                                 '. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "hygiene",
+      "page": "3",
+      "observation": "On page no. 3, acronym(s) 'EPS, ROCE, ROE' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "6",
+      "observation": "On page no. 6, acronym(s) 'ICE' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "7",
+      "observation": "On page no. 7, acronym(s) 'IATF, ISO' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "9",
+      "observation": "On page no. 9, acronym(s) 'EV' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "12",
+      "observation": "On page no. 12, acronym(s) 'FIFO, GIN' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "13",
+      "observation": "On page no. 13, acronym(s) 'PU' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "16",
+      "observation": "On page no. 16, acronym(s) 'FIFO' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "29",
+      "observation": "On page no. 29, footnote symbol '*' appears unreferenced. Kindly ensure all footnotes are properly cross-referenced (both in-text reference and footnote definition). Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "FOOTNOTE_MISMATCH",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "export_split",
+      "page": "1",
+      "observation": "Kindly provide product-wise domestic and export sales bifurcation for the DRHP period. Include detailed breakup for all major products (Automotive Products, Pharma Products, Textiles Products, etc.) in tabular format showing \u20b9 and % contribution.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "PRODUCT_EXPORT_SPLIT",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    },
+    {
+      "type": "industry_split",
+      "page": "1",
+      "observation": "Refer to financial section of the DRHP and provide/include details of breakup of industry-wise revenue from operations split for the DRHP period (e.g., Automotive, Appliances, Industrial, etc.). Provide this in tabular format showing \u20b9 and % contribution for past 3 FYs and stub period.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "INDUSTRY_REVENUE_SPLIT",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    },
+    {
+      "type": "import_split",
+      "page": "1",
+      "observation": "Incorporate the details of country wise import purchases value and % terms for the DRHP period. Provide revised draft.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "IMPORT_COUNTRY_SPLIT",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    },
+    {
+      "type": "table_totals",
+      "page": "168",
+      "observation": "Refer page 168 include the row of total in all tables. Ensure all financial tables throughout the DRHP include a 'Total' row/column for arithmetic accuracy.",
+      "severity": "Hygiene",
+      "category": "Presentation",
+      "issue_id": "MISSING_TABLE_TOTALS",
+      "regulation_ref": "ICDR Regulations - Format"
+    },
+    {
+      "type": "rd_disclosure",
+      "page": "1",
+      "observation": "Refer page 1, kindly check for inclusion of details of R&D and branding investment/expenditure done in DRHP period. Include: (a) number of employees in R&D department; (b) \u20b9 spent in past 3 FYs; (c) key outcomes/patents filed; and (d) future R&D plans. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "RD_INVESTMENT_DISCLOSURE",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "government_policy",
+      "page": "1",
+      "observation": "Page 1, kindly provide details of government policies/any benefit received in past DRHP period related to key product lines (textiles, pharma, toys). Include: (a) specific schemes availed; (b) \u20b9 benefit received (past 3 FYs); (c) eligibility criteria; and (d) sunset clauses/renewal. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "GOVERNMENT_POLICY_DISCLOSURE",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "manufacturing_split",
+      "page": "1",
+      "observation": "Kindly check for inclusion of details of major verticals/products split into own manufacturing and contractual manufacturing. Provide \u20b9 and % split for each major product line (Automotive Products, Pharma Products, Textiles Products, etc.) for past 3 FYs and stub period. Include: (a) capacity utilization for own manufacturing; (b) contract manufacturer names and locations; and (c) quality control mechanisms. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "MANUFACTURING_SPLIT",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "trademark_details",
+      "page": "1",
+      "observation": "Refer to the trademark details in business chapter, kindly include the registration number, registration date, and validity period details for all trademarks in the DRHP. Provide this in tabular format showing: (a) Trademark name; (b) Class; (c) Registration No.; (d) Registration date; (e) Validity till; and (f) Territory. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Legal",
+      "issue_id": "TRADEMARK_DETAILS",
+      "regulation_ref": "ICDR Regulations - Legal Disclosure"
+    },
+    {
+      "type": "property_area",
+      "page": "7",
+      "observation": "Refer to the property section on page 7, kindly include the area details (i.e. sq.ft., sq. meters, acres etc.) for all properties (owned and leased). Provide this in the property table along with: (a) built-up area; (b) land area; (c) unit of measurement; and (d) usage (manufacturing/office/warehouse). Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Legal",
+      "issue_id": "PROPERTY_AREA_DETAILS",
+      "regulation_ref": "ICDR Regulations - Property Disclosure"
+    },
+    {
+      "type": "scrap_details",
+      "page": "1",
+      "observation": "Refer to manufacturing process details, include the details of scrap and wastages details. Quantify the scrap generation %, wastage %, and yield loss analysis for the past 3 FYs. Provide the draft and incorporate the same in DRHP.",
+      "severity": "Observation",
+      "category": "Operational",
+      "issue_id": "SCRAP_DETAILS_MISSING",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "omission",
+      "page": "27",
+      "observation": "Refer to page 27, kindly provide rationale for not including certain revenue segments (e.g., consumer durables, appliances, etc.) details in the competition section, if these segments contribute materially to revenue. If these segments are not material, provide disclosure confirming the same. Provide revised draft.",
+      "severity": "Material",
+      "category": "Omission",
+      "issue_id": "COMPETITION_OMISSION",
+      "regulation_ref": "ICDR Regulations - Completeness"
+    },
+    {
+      "type": "customer_churn_repeat",
+      "page": "Business",
+      "observation": "Kindly provide details on the decline/trend in customer count over the last 3 years. Explicitly disclose the 'Repeat Clientele %' (revenue from existing customers vs new customers). Explain specific reasons for any loss of customers. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "CUSTOMER_CHURN_REPEAT_CLIENTS",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "oem_collab",
+      "page": "Business",
+      "observation": "Kindly disclose the nature and duration of OEM collaborations mentioned. Are these one-off PO based or long-term contracts? Provide details of any MOUs/Agreements. Provide revised draft.",
+      "severity": "Major",
+      "category": "Business",
+      "issue_id": "OEM_COLLABORATION_DETAILS",
+      "regulation_ref": "ICDR Regulations - Business"
+    },
+    {
+      "type": "arms_length_sharp",
+      "page": "General",
+      "observation": "Regarding agreements (e.g. lease, purchase, sales), confirm they are not prejudicial to the interest of the Issuer. Explicitly confirm they are at arm's length. If any agreement is not at arm's length, disclose the justification and Audit Committee approval. Provide revised draft.",
+      "severity": "Material",
+      "category": "Legal",
+      "issue_id": "AGREEMENT_ARMS_LENGTH_SHARP",
+      "regulation_ref": "ICDR Regulations - RPTs"
+    },
+    {
+      "type": "logistics_mechanism",
+      "page": "General",
+      "observation": "Kindly disclose the detailed logistics mechanism followed by the Company. Explain the flow of goods from Factory -> Depot/Warehouse -> Dealer/Distributor -> Retailer. Clarify who bears the freight/transportation risk at each leg (Company or Customer). Provide revised draft.",
+      "severity": "Major",
+      "category": "Operational",
+      "issue_id": "LOGISTICS_MECHANISM_DISCLOSURE",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "process_flowchart",
+      "page": "General",
+      "observation": "Kindly include a detailed business process flowchart covering the entire value chain from Raw Material Procurement to Finished Goods Dispatch. Ensure key control points and quality checks are highlighted in the flowchart. Provide revised draft.",
+      "severity": "Major",
+      "category": "Operational",
+      "issue_id": "PROCESS_FLOWCHART_MISSING",
+      "regulation_ref": "ICDR Regulations - Business Disclosure"
+    },
+    {
+      "type": "hr_metrics",
+      "page": "General",
+      "observation": "Kindly provide the Attrition Rate (%) for the last 3 financial years, split between Senior Management and Junior Staff/Workers. Also confirm whether the Company is fully compliant with EPF and ESIC payments for all eligible employees (including contract labour). Provide revised draft.",
+      "severity": "Material",
+      "category": "Forensic",
+      "issue_id": "HR_METRICS_ATTRITION_EPF",
+      "regulation_ref": "ICDR Regulations - Litigation/Compliance"
+    },
+    {
+      "type": "insurance_adequacy",
+      "page": "General",
+      "observation": "Kindly provide a table showing total insurance cover vis-a-vis total value of assets (Property, Plant & Equipment + Inventory). Quantify the % of assets covered implies adequacy. Disclose details of any insurance claims rejected in the last 3 years. Provide revised draft.",
+      "severity": "Major",
+      "category": "Forensic",
+      "issue_id": "INSURANCE_ADEQUACY",
+      "regulation_ref": "ICDR Regulations - Risk Factors"
+    },
+    {
+      "type": "csr_compliance",
+      "page": "General",
+      "observation": "Kindly provide details of CSR obligations vs actual CSR spend for the last 3 financial years. Confirm if the Company meets the 2% average net profit criteria. If there is any shortfall/unspent amount, provide reasons and details of transfer to specified funds. Provide revised draft.",
+      "severity": "Material",
+      "category": "Forensic",
+      "issue_id": "CSR_COMPLIANCE_DETAILS",
+      "regulation_ref": "ICDR Regulations - Compliance"
+    },
+    {
+      "type": "state_revenue_explicit",
+      "page": "Financials",
+      "observation": "Kindly format the revenue disclosure to explicitly show 'State-wise Revenue Bifurcation' for top 10 states for the last 3 financial years. Ensure this reconciles with GST returns data. Provide revised draft.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "STATE_REVENUE_EXPLICIT_FORCE",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    }
+  ],
+  "nse_engine_gemini_enabled": true,
+  "total_queries": 37,
+  "internal_stats": {
+    "total_checked": 0,
+    "total_skipped": 0,
+    "exhaustive_searches": 0
+  },
+  "total_requirements": 37,
+  "summary": {
+    "total": 37,
+    "Major": 4,
+    "Observation": 1,
+    "Clarification": 0
+  },
+  "completed_at": "2026-01-04T13:25:27.936256+00:00",
+  "processing_time_seconds": 82,
+  "created_at": "2026-01-04T13:24:05.814368+00:00"
+}

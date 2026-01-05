@@ -1,0 +1,160 @@
+{
+  "version": "1.1",
+  "name": "expectation_ontology",
+  "created_by": "ipo-compliance-system",
+  "created_at": "2026-01-03T00:00:00Z",
+  "chapters": [
+    {
+      "id": "business_overview",
+      "label": "Business Overview",
+      "expectations": [
+        {
+          "id": "revenue_disclosure_completeness",
+          "label": "Revenue Disclosure - Completeness",
+          "mandatory": true,
+          "detection_hints": [
+            "product wise revenue",
+            "revenue break up",
+            "sales by product",
+            "state-wise revenue",
+            "country-wise revenue",
+            "revenue table"
+          ],
+          "expected_answer_type": "table",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "Why are corporate clients excluded from revenue bifurcation?",
+            "if_present": "no_action",
+            "if_missing": "emit_question"
+          },
+          "notes": "Prefer one direct question that asks about specific exclusions rather than a broad table request."
+        },
+        {
+          "id": "revenue_disclosure_exclusions",
+          "label": "Revenue Disclosure - Exclusions",
+          "mandatory": true,
+          "detection_hints": ["exclusion","exclude","corporate clients","retail clients","included/excluded"],
+          "expected_answer_type": "short_explanation",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "If corporate clients are excluded from revenue splits, please explain why and provide the criteria.",
+            "if_missing": "emit_question"
+          },
+          "notes": "Lock intent to the specific exclusion reason (one question)."
+        },
+        {
+          "id": "revenue_trends",
+          "label": "Revenue - Trends (decline/spike)",
+          "mandatory": false,
+          "detection_hints": ["YoY","year on year","growth","decline","spike","trend"],
+          "expected_answer_type": "numeric_summary",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "Please explain the reason for the observed >20% YoY change in revenue for {{entity}} (FYn → FYn+1).",
+            "if_missing": "emit_question"
+          }
+        }
+      ]
+    },
+    {
+      "id": "market_positioning",
+      "label": "Market Positioning",
+      "expectations": [
+        {
+          "id": "superlative_claims_source",
+          "label": "Superlatives - Source / Evidence",
+          "mandatory": true,
+          "detection_hints": ["best","leading","largest","highest market share","superlative"],
+          "expected_answer_type": "evidence_reference",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "Provide the evidentiary source for the claim '{{claim_text}}' and quantify the basis (market data or citation).",
+            "if_missing": "emit_question"
+          }
+        },
+        {
+          "id": "exclusivity_claims",
+          "label": "Exclusivity Claims",
+          "mandatory": true,
+          "detection_hints": ["exclusive","sole distributor","only supplier"],
+          "expected_answer_type": "yes_no_with_explanation",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "Is this an exclusive arrangement? If yes, provide contract reference and duration; if no, clarify alternate suppliers.",
+            "if_missing": "emit_question"
+          }
+        }
+      ]
+    },
+    {
+      "id": "financial_information",
+      "label": "Financial Information",
+      "expectations": [
+        {
+          "id": "revenue_disclosure_timeliness",
+          "label": "Revenue - Timeliness / Periods",
+          "mandatory": true,
+          "detection_hints": ["three years", "last three fiscal years", "FY", "year ended"],
+          "expected_answer_type": "table",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "Please provide revenue figures for the last three fiscal years (FYn-2, FYn-1, FYn) in tabular form and clarify any restatements.",
+            "if_missing": "emit_question"
+          }
+        },
+        {
+          "id": "audited_financials_provided",
+          "label": "Audited Financials",
+          "mandatory": true,
+          "detection_hints": ["audited financials","audited financial statements","statutory audit","auditor's report","financial statements audited"],
+          "expected_answer_type": "document_reference",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "Please confirm whether audited financial statements for the last 3 FYs are included and provide reference pages.",
+            "if_missing": "emit_question"
+          }
+        },
+        {
+          "id": "related_party_transactions_disclosure",
+          "label": "Related Party Transactions",
+          "mandatory": true,
+          "detection_hints": ["related party","related-party transactions","associate transactions","party during the period"],
+          "expected_answer_type": "table_or_explanation",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "Provide the RPT summary table for the last 3 FYs including counterparties and amounts, or confirm if none exist.",
+            "if_missing": "emit_question"
+          }
+        }
+      ]
+    },
+    {
+      "id": "risk_factors",
+      "label": "Risk Factors",
+      "expectations": [
+        {
+          "id": "material_risk_coverage",
+          "label": "Material Risk Coverage",
+          "mandatory": true,
+          "detection_hints": ["risk factors","material risks","significant risk","risks that may"],
+          "expected_answer_type": "list_with_mitigation",
+          "enforcement": {
+            "policy": "single_precise_question",
+            "question_template": "For risk '{{risk_text}}', provide specific mitigation steps the company has implemented or plans to implement.",
+            "if_missing": "emit_question"
+          }
+        }
+      ]
+    }
+  ],
+  "global_policies": {
+    "enforcement_mode": "intent_lock",
+    "question_limit_per_expectation": 1,
+    "confidence_threshold_for_automatic_detection": 0.65,
+    "fallback_policy": "emit_precise_question_when_detection_low_but_trigger_present"
+  },
+  "usage_notes": {
+    "integration_point": "Run ExpectationLocker after DRHP context extraction and before query generation; for each expectation: detect, confirm, or emit one locked question.",
+    "evaluation_metrics": ["expectation_coverage_rate","intent_match_precision","per_expectation_hit_rate","impact_on_final_accuracy"]
+  }
+}

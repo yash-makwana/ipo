@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "job_id": "5e83fd42-32ca-4235-a4e5-ebe43006efc3",
+  "user_email": "local_user@localhost",
+  "mode": "STANDARD",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "tri_business.pdf",
+  "company_name": "the Company",
+  "company_profile": {},
+  "ipo_structure": {},
+  "nse_queries": [],
+  "nse_engine_gemini_enabled": false,
+  "total_queries": 0,
+  "internal_stats": {},
+  "total_requirements": 0,
+  "summary": {
+    "total": 0,
+    "Major": 0,
+    "Observation": 0,
+    "Clarification": 0
+  },
+  "completed_at": "2026-01-04T07:05:28.963539+00:00",
+  "processing_time_seconds": 6,
+  "created_at": "2026-01-04T07:05:22.171266+00:00"
+}

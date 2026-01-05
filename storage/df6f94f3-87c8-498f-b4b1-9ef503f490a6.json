@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "job_id": "df6f94f3-87c8-498f-b4b1-9ef503f490a6",
+  "user_email": "local_user@localhost",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "business_eco.pdf",
+  "company_name": "the Company",
+  "company_profile": {
+    "revenue": 0,
+    "employees": 0,
+    "business_type": "technology"
+  },
+  "ipo_structure": {
+    "has_convertible_debt": false,
+    "has_warrants": false,
+    "has_secured_instruments": false,
+    "has_sr_shares": false,
+    "has_vc_or_pe": true,
+    "has_employee_equity": false,
+    "mentions_promoter_contribution": false,
+    "mentions_lockin": true,
+    "has_rights_issue": false,
+    "has_qip": false
+  },
+  "nse_queries": [],
+  "total_queries": 0,
+  "internal_stats": {
+    "total_checked": 0,
+    "total_skipped": 0
+  },
+  "total_requirements": 0,
+  "summary": {
+    "total": 0,
+    "Major": 0,
+    "Observation": 0,
+    "Clarification": 0
+  },
+  "completed_at": "2026-01-03T11:05:24.425337+00:00",
+  "processing_time_seconds": 26,
+  "created_at": "2026-01-03T11:04:58.420719+00:00"
+}

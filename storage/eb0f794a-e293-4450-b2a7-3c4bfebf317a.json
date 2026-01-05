@@ -1,0 +1,571 @@
+{
+  "status": "completed",
+  "job_id": "eb0f794a-e293-4450-b2a7-3c4bfebf317a",
+  "user_email": "local_user@localhost",
+  "mode": "MULTI_AGENT_ADAPTIVE",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "Eco_fuel_Systems_India_Limited_DRHP.pdf",
+  "total_requirements": 30,
+  "summary": {
+    "PRESENT": 0,
+    "INSUFFICIENT": 0,
+    "MISSING": 30,
+    "UNCLEAR": 0
+  },
+  "priority_summary": {},
+  "items": [
+    {
+      "requirement": "an issuer making an initial public offer of convertible debt instruments shall also comply with the following conditions: (a) it has obtained credit rating from at least one credit rating agency;",
+      "obligation_text": "an issuer making an initial public offer of convertible debt instruments shall also comply with the following conditions: (a) it has obtained credit rating from at least one credit rating agency;",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding a credit rating obtained from a credit rating agency, which is a mandatory requirement for an issuer making an initial public offer of convertible debt instruments.",
+      "evidence": "",
+      "missing_details": "Credit rating from at least one credit rating agency",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        6
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "source_clause": "ICDR_2018 Chapter II Unit 10",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "it has appointed at least one debenture trustee in accordance with the provisions of the Companies Act, 2013 and the Securities and Exchange Board of India (Debenture Trustees) Regulations, 1993;",
+      "obligation_text": "it has appointed at least one debenture trustee in accordance with the provisions of the Companies Act, 2013 and the Securities and Exchange Board of India (Debenture Trustees) Regulations, 1993;",
+      "status": "MISSING",
+      "explanation": "The provided excerpts from the Draft Red Herring Prospectus (DRHP) do not contain any information regarding the appointment of a debenture trustee, which is a mandatory legal obligation under the Companies Act, 2013 and SEBI (Debenture Trustees) Regulations, 1993. Therefore, compliance with this obligation cannot be determined from the given text.",
+      "evidence": "",
+      "missing_details": "Confirmation of appointment of at least one debenture trustee, details of the appointed debenture trustee(s) including their name, registration number with SEBI, and the date of appointment.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3,
+        10
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "source_clause": "ICDR_2018 Chapter II Unit 10",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "it shall create a debenture redemption reserve in accordance with the provisions of the Companies Act, 2013 and rules made thereunder;",
+      "obligation_text": "it shall create a debenture redemption reserve in accordance with the provisions of the Companies Act, 2013 and rules made thereunder;",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the creation of a debenture redemption reserve or the appointment of a debenture trustee. These are crucial legal obligations related to debenture issuance.",
+      "evidence": "",
+      "missing_details": "Details on the creation of a debenture redemption reserve as per the Companies Act, 2013 and rules thereunder; Confirmation of appointment of at least one debenture trustee as per the Companies Act, 2013 and SEBI (Debenture Trustees) Regulations, 1993.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        5
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "source_clause": "ICDR_2018 Chapter II Unit 10",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that such assets are sufficient to discharge the principal amount at all times;",
+      "obligation_text": "if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that such assets are sufficient to discharge the principal amount at all times;",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the creation of charges or security on assets for secured convertible debt instruments, nor does it mention the sufficiency of such assets to discharge principal amounts or whether they are free from encumbrances. Therefore, the legal obligation is not addressed.",
+      "evidence": "",
+      "missing_details": "Details on proposed charges or security on assets for secured convertible debt instruments, confirmation of asset sufficiency for principal discharge, and verification of assets being free from encumbrances.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "source_clause": "ICDR_2018 Chapter II Unit 10",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that such assets are free from any encumbrance;",
+      "obligation_text": "if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that such assets are free from any encumbrance;",
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information regarding the creation of charges or security on assets for convertible debt instruments. Therefore, it is impossible to determine if the issuer has ensured that such assets are free from encumbrances or if the security cover has been calculated after reducing prior charges, as required by the legal obligations.",
+      "evidence": "",
+      "missing_details": "Details on proposed charges or security on assets for convertible debt instruments, Confirmation that such assets are free from encumbrances, Details on security or asset cover calculation after reduction of prior charges if applicable",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "source_clause": "ICDR_2018 Chapter II Unit 10",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that where security is already created on such assets in favour of any existing lender or security trustee or the issue of convertible debt instruments is proposed to be secured by creation of security on a leasehold land, the consent of such lender or security trustee or lessor for a second or pari passu charge has been obtained and submitted to the debenture trustee before the opening of the issue;",
+      "obligation_text": "if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that where security is already created on such assets in favour of any existing lender or security trustee or the issue of convertible debt instruments is proposed to be secured by creation of security on a leasehold land, the consent of such lender or security trustee or lessor for a second or pari passu charge has been obtained and submitted to the debenture trustee before the opening of the issue;",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the creation of charges or security on assets for secured convertible debt instruments, nor does it mention obtaining consent from existing lenders or lessors for second or pari passu charges, or details about asset cover after reduction of prior liabilities. Therefore, the legal obligation is not addressed.",
+      "evidence": "",
+      "missing_details": "Details regarding the creation of charges or security on assets for secured convertible debt instruments, consent from existing lenders/security trustees/lessors for second or pari passu charges, and calculation of asset cover after reduction of liabilities with a first or prior charge.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "source_clause": "ICDR_2018 Chapter II Unit 10",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that the security or asset cover shall be arrived at after reduction of the liabilities having a first or prior charge, in case the convertible debt instruments are secured by a second or subsequent charge.",
+      "obligation_text": "if the issuer proposes to create a charge or security on its assets in respect of secured convertible debt instruments, it shall ensure that the security or asset cover shall be arrived at after reduction of the liabilities having a first or prior charge, in case the convertible debt instruments are secured by a second or subsequent charge.",
+      "status": "MISSING",
+      "explanation": "The provided excerpts from the DRHP do not contain any information regarding the creation of charges or security on assets for convertible debt instruments, nor do they address the valuation of asset cover after deducting prior liabilities. Therefore, this legal obligation is not addressed in the provided text.",
+      "evidence": "",
+      "missing_details": "Details on whether the issuer proposes to create a charge or security on its assets for secured convertible debt instruments, and if so, the methodology for calculating asset cover after deducting prior charges.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3,
+        6
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 10",
+      "source_clause": "ICDR_2018 Chapter II Unit 10",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "the tenure of such warrants shall not exceed eighteen months from the date of their allotment in the initial public offer",
+      "obligation_text": "the tenure of such warrants shall not exceed eighteen months from the date of their allotment in the initial public offer",
+      "status": "MISSING",
+      "explanation": "The provided excerpts from the Draft Red Herring Prospectus (DRHP) do not contain any information regarding the tenure of warrants or the conditions for exercising options against them. Therefore, it is impossible to determine if the legal obligation is satisfied.",
+      "evidence": "",
+      "missing_details": "Information on the tenure of warrants, including the maximum allowed period from allotment and the conditions for exercising equity shares against warrants, including any forfeiture clauses.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 13",
+      "source_clause": "ICDR_2018 Chapter II Unit 13",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "in case the exercise price of warrants is based on a formula, twenty-five per cent consideration amount based on the cap price of the price band determined for the linked equity shares or convertible securities shall be received upfront",
+      "obligation_text": "in case the exercise price of warrants is based on a formula, twenty-five per cent consideration amount based on the cap price of the price band determined for the linked equity shares or convertible securities shall be received upfront",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding warrants, their exercise price determination, or the upfront consideration amount. Therefore, it is impossible to determine if the legal obligation related to warrants is satisfied.",
+      "evidence": "",
+      "missing_details": "Information regarding warrants, including the formula for exercise price determination, the cap price of the price band for linked equity shares or convertible securities, and the upfront consideration amount received, needs to be included.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        6
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 13",
+      "source_clause": "ICDR_2018 Chapter II Unit 13",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "In case the promoters have to subscribe to equity shares or convertible securities towards minimum promoters\u2019 contribution, the amount of promoters\u2019 contribution shall be kept in an escrow account with a scheduled commercial bank, which shall be released to the issuer along with the release of the issue proceeds.",
+      "obligation_text": "In case the promoters have to subscribe to equity shares or convertible securities towards minimum promoters\u2019 contribution, the amount of promoters\u2019 contribution shall be kept in an escrow account with a scheduled commercial bank, which shall be released to the issuer along with the release of the issue proceeds.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the promoters' contribution, escrow accounts, or the release of issue proceeds. Therefore, it is impossible to determine if this legal obligation is satisfied.",
+      "evidence": "",
+      "missing_details": "Details on promoters' contribution, escrow account arrangements for promoters' contribution, and the release mechanism of promoters' contribution along with issue proceeds.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3,
+        4
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 14",
+      "source_clause": "ICDR_2018 Chapter II Unit 14",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "where the minimum promoters\u2019 contribution is more than one hundred crore rupees and the initial public offer is for partly paid shares, the promoters shall bring in at least one hundred crore rupees before the date of opening of the issue and the remaining amount may be brought on a pro -rata basis before the calls are made to the public.",
+      "obligation_text": "where the minimum promoters\u2019 contribution is more than one hundred crore rupees and the initial public offer is for partly paid shares, the promoters shall bring in at least one hundred crore rupees before the date of opening of the issue and the remaining amount may be brought on a pro -rata basis before the calls are made to the public.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the minimum promoters' contribution, the total value of the initial public offer, or whether the offer is for partly paid shares. Therefore, it is impossible to determine if the legal obligation regarding promoters' contribution for partly paid shares is met.",
+      "evidence": "",
+      "missing_details": "Details on minimum promoters' contribution amount, total IPO size, and confirmation of whether the IPO is for partly paid shares.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        6,
+        7
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 14",
+      "source_clause": "ICDR_2018 Chapter II Unit 14",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "specified securities acquired during the preceding three years, if these are acquired for consideration other than cash and revaluation of assets or capitalisation of intangible assets is involved in such transaction, shall not be eligible for the computation of minimum promoters\u2019 contribution.",
+      "obligation_text": "specified securities acquired during the preceding three years, if these are acquired for consideration other than cash and revaluation of assets or capitalisation of intangible assets is involved in such transaction, shall not be eligible for the computation of minimum promoters\u2019 contribution.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information related to specified securities acquired during the preceding three years for consideration other than cash, or revaluation of assets/capitalization of intangible assets. Therefore, it is impossible to determine if this legal obligation regarding the computation of minimum promoters' contribution is satisfied.",
+      "evidence": "",
+      "missing_details": "Details of specified securities acquired during the preceding three years for consideration other than cash, Details of revaluation of assets or capitalization of intangible assets involved in such transactions.",
+      "confidence": 0.95,
+      "pages": [
+        1,
+        9
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 15",
+      "source_clause": "ICDR_2018 Chapter II Unit 15",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "specified securities acquired by the promoters and certain other entities during the preceding one year at a price lower than the price at which specified securities are being offered to the public in the initial public offer, shall not be eligible for the computation of minimum promoters\u2019 contribution.",
+      "obligation_text": "specified securities acquired by the promoters and certain other entities during the preceding one year at a price lower than the price at which specified securities are being offered to the public in the initial public offer, shall not be eligible for the computation of minimum promoters\u2019 contribution.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the acquisition of specified securities by promoters or other entities during the preceding year at a price lower than the public offer price, nor does it address acquisitions for consideration other than cash or revaluation of assets within the preceding three years. Therefore, compliance with these specific legal obligations cannot be determined.",
+      "evidence": "",
+      "missing_details": "Details of specified securities acquired by promoters and other entities in the preceding one year at a price lower than the IPO price, Details of specified securities acquired in the preceding three years for consideration other than cash or involving revaluation of assets or capitalization of intangible assets.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        2,
+        5
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 15",
+      "source_clause": "ICDR_2018 Chapter II Unit 15",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "specified securities allotted to the promoters and certain other entities during the preceding one year at a price less than the issue price, against funds brought in by them during that period, in case of an issuer formed by conversion of one or more partnership firms or limited liability partnerships, shall not be eligible for the computation of minimum promoters\u2019 contribution, unless allotted against capital existing for more than one year.",
+      "obligation_text": "specified securities allotted to the promoters and certain other entities during the preceding one year at a price less than the issue price, against funds brought in by them during that period, in case of an issuer formed by conversion of one or more partnership firms or limited liability partnerships, shall not be eligible for the computation of minimum promoters\u2019 contribution, unless allotted against capital existing for more than one year.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content focuses on general disclaimers regarding forward-looking statements and financial information sources. There is no information related to the allotment of specified securities to promoters or other entities during the preceding year at a price less than the issue price, nor any details about the conversion of partnership firms or LLPs. Therefore, this legal obligation is not addressed in the provided excerpts.",
+      "evidence": "",
+      "missing_details": "Details on specified securities allotted to promoters and other entities in the preceding year at a price less than the issue price, especially in the context of conversion from partnership firms or LLPs.",
+      "confidence": 1.0,
+      "pages": [
+        1
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 15",
+      "source_clause": "ICDR_2018 Chapter II Unit 15",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "specified securities pledged with any creditor shall not be eligible for the computation of promoters\u2019 contribution.",
+      "obligation_text": "specified securities pledged with any creditor shall not be eligible for the computation of promoters\u2019 contribution.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information regarding the promoters' contribution, specifically whether any specified securities have been pledged with creditors or acquired at a lower price. Therefore, it is impossible to determine if the legal obligation to exclude such securities from the computation of promoters' contribution is met.",
+      "evidence": "",
+      "missing_details": "Details on promoters' contribution, including information on pledged securities and securities acquired within the preceding year at a lower price than the offer price.",
+      "confidence": 0.95,
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 15",
+      "source_clause": "ICDR_2018 Chapter II Unit 15",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "Specified securities referred to in clauses (a) and (c) of sub-regulation (1) shall be eligible for the computation of promoters\u2019 contribution if such securities are acquired pursuant to a scheme which has been approved by a tribunal or the Central Government under sections 230 to 234 of the Companies Act, 2013.",
+      "obligation_text": "Specified securities referred to in clauses (a) and (c) of sub-regulation (1) shall be eligible for the computation of promoters\u2019 contribution if such securities are acquired pursuant to a scheme which has been approved by a tribunal or the Central Government under sections 230 to 234 of the Companies Act, 2013.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the acquisition of specified securities pursuant to a scheme approved by a tribunal or the Central Government under sections 230 to 234 of the Companies Act, 2013. Therefore, it is not possible to determine if this legal obligation is satisfied.",
+      "evidence": "",
+      "missing_details": "Details of any scheme approved by a tribunal or the Central Government under sections 230 to 234 of the Companies Act, 2013, and how specified securities were acquired pursuant to such a scheme for the computation of promoters' contribution.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3,
+        9
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 15",
+      "source_clause": "ICDR_2018 Chapter II Unit 15",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "minimum promoters\u2019 contribution shall be locked -in for a period of eighteen months from the date of allotment in the initial public offer.",
+      "obligation_text": "minimum promoters\u2019 contribution shall be locked -in for a period of eighteen months from the date of allotment in the initial public offer.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the lock-in period for promoters' contribution, which is a mandatory disclosure requirement for IPOs. Therefore, compliance with this legal obligation cannot be determined.",
+      "evidence": "",
+      "missing_details": "Details on the lock-in period for minimum promoters' contribution, including the duration and the date of allotment.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3,
+        4
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 16",
+      "source_clause": "ICDR_2018 Chapter II Unit 16",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "promoters\u2019 holding in excess of minimum promoters\u2019 contribution shall be locked -in for a period of six months from the date of allotment in the initial public offer.",
+      "obligation_text": "promoters\u2019 holding in excess of minimum promoters\u2019 contribution shall be locked -in for a period of six months from the date of allotment in the initial public offer.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the promoters' holding, minimum promoters' contribution, or lock-in periods. Therefore, it is impossible to determine compliance with the legal obligation.",
+      "evidence": "",
+      "missing_details": "Promoters' holding details, Minimum promoters' contribution percentage, Lock-in period for promoters' shares, Date of allotment in the IPO",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3,
+        4
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 16",
+      "source_clause": "ICDR_2018 Chapter II Unit 16",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "The SR equity shares shall be under lock -in until conversion into equity shares having voting rights same as that of ordinary shares or shall be locked -in for a period specified in sub -regulations (1), whichever is later.",
+      "obligation_text": "The SR equity shares shall be under lock -in until conversion into equity shares having voting rights same as that of ordinary shares or shall be locked -in for a period specified in sub -regulations (1), whichever is later.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the lock-in period for SR equity shares or equity shares allotted to employees, which is a mandatory disclosure requirement. Therefore, the legal obligation is not satisfied.",
+      "evidence": "",
+      "missing_details": "Details on the lock-in period for SR equity shares until conversion or for a specified period, and details on the lock-in provisions for equity shares allotted to employees as per SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3,
+        9
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 16",
+      "source_clause": "ICDR_2018 Chapter II Unit 16",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "The entire pre-issue capital held by persons other than the promoters shall be locked-in for a period of six months from the date of allotment in the initial public offer.",
+      "obligation_text": "The entire pre-issue capital held by persons other than the promoters shall be locked-in for a period of six months from the date of allotment in the initial public offer.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to the lock-in period for pre-issue capital held by persons other than promoters, nor does it mention the utilization of issue proceeds for capital expenditure which would trigger a longer lock-in period. Therefore, compliance with this legal obligation cannot be determined.",
+      "evidence": "",
+      "missing_details": "Details regarding the lock-in period for pre-issue capital held by persons other than promoters, and information on the utilization of issue proceeds for capital expenditure.",
+      "confidence": 1.0,
+      "pages": [
+        1
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 17",
+      "source_clause": "ICDR_2018 Chapter II Unit 17",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "the equity shares allotted to the employees shall be subject to the provisions of lock-in as specified under the Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021.",
+      "obligation_text": "the equity shares allotted to the employees shall be subject to the provisions of lock-in as specified under the Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the lock-in provisions for equity shares allotted to employees or for significant shareholders as required by SEBI regulations. Therefore, compliance with this legal obligation cannot be determined.",
+      "evidence": "",
+      "missing_details": "Details on lock-in provisions for employee-allotted equity shares, Details on lock-in provisions for shareholders holding over 20% pre-issue shareholding, Specific regulations and durations of lock-in periods applicable.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3
+      ],
+      "priority": "CRITICAL",
+      "citation": "ICDR_2018 Chapter II Unit 17",
+      "source_clause": "ICDR_2018 Chapter II Unit 17",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "such equity shares shall be locked in for a period of at least six months from the date of purchase by the venture capital fund or alternative investment fund of Category I or Category II or foreign venture capital investor.",
+      "obligation_text": "such equity shares shall be locked in for a period of at least six months from the date of purchase by the venture capital fund or alternative investment fund of Category I or Category II or foreign venture capital investor.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information regarding lock-in periods for equity shares purchased by venture capital funds, alternative investment funds (Category I or II), or foreign venture capital investors. Therefore, it is impossible to determine if the legal obligation is satisfied.",
+      "evidence": "",
+      "missing_details": "Details on lock-in periods for equity shares acquired by venture capital funds, alternative investment funds (Category I or II), or foreign venture capital investors, including the duration of the lock-in and the specific entities subject to it.",
+      "confidence": 1.0,
+      "pages": [
+        1
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 17",
+      "source_clause": "ICDR_2018 Chapter II Unit 17",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "in case such equity shares have resulted pursuant to conversion of fully paid-up compulsorily convertible securities, the holding period of such convertible securities as well as that of resultant equity shares together shall be considered for the purpose of calculation of six months period and convertible securities shall be deemed to be fully paid-up, if the entire consideration payable thereon has been paid and no further consideration is payable at the time of their conversion.",
+      "obligation_text": "in case such equity shares have resulted pursuant to conversion of fully paid-up compulsorily convertible securities, the holding period of such convertible securities as well as that of resultant equity shares together shall be considered for the purpose of calculation of six months period and convertible securities shall be deemed to be fully paid-up, if the entire consideration payable thereon has been paid and no further consideration is payable at the time of their conversion.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts focus on the business overview, forward-looking statements, and financial information sources. There is no information related to the conversion of compulsorily convertible securities or the calculation of holding periods for resultant equity shares, which is the subject of the legal obligation.",
+      "evidence": "",
+      "missing_details": "Details regarding the conversion of compulsorily convertible securities into equity shares, the holding period of such convertible securities, and the holding period of the resultant equity shares for the purpose of calculating the six-month or one-year period as stipulated by the legal requirements.",
+      "confidence": 1.0,
+      "pages": [
+        1
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 17",
+      "source_clause": "ICDR_2018 Chapter II Unit 17",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "in case such equity shares have resulted pursuant to a bonus issue, then the holding period of such equity shares against which the bonus issue is made as well as holding period of resultant bonus equity shares together shall be considered for the purpose of calculation of six months period, subject to the following: (a) that the bonus shares being issued out of free reserves and share premium existing in the books of account as at the end of the financial year preceding the financial year in which the draft offer document is filed with the Board; and (b) that the bonus shares not being issued by utilisation of revaluation reserves or unrealized profits of the issuer.",
+      "obligation_text": "in case such equity shares have resulted pursuant to a bonus issue, then the holding period of such equity shares against which the bonus issue is made as well as holding period of resultant bonus equity shares together shall be considered for the purpose of calculation of six months period, subject to the following: (a) that the bonus shares being issued out of free reserves and share premium existing in the books of account as at the end of the financial year preceding the financial year in which the draft offer document is filed with the Board; and (b) that the bonus shares not being issued by utilisation of revaluation reserves or unrealized profits of the issuer.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content focuses on the business overview, forward-looking statements, and financial information sources. It does not contain any information related to bonus issues, holding periods of shares, or the conditions for calculating the six-month period as required by the legal obligation.",
+      "evidence": "",
+      "missing_details": "Details regarding bonus issues, holding periods of shares against which bonus issues were made, holding periods of resultant bonus shares, confirmation that bonus shares were issued out of free reserves and share premium, and confirmation that revaluation reserves or unrealized profits were not utilized for bonus shares.",
+      "confidence": 1.0,
+      "pages": [
+        1
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 17",
+      "source_clause": "ICDR_2018 Chapter II Unit 17",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "If the specified securities which are subject to lock -in are partly paid -up and the amount called -up on such specified securities is less than the amount called -up on the specif ied securities issued to the public, the lock -in shall end only on the expiry of three years after such specified securities have become pari passu with the specified securities issued to the public.",
+      "obligation_text": "If the specified securities which are subject to lock -in are partly paid -up and the amount called -up on such specified securities is less than the amount called -up on the specif ied securities issued to the public, the lock -in shall end only on the expiry of three years after such specified securities have become pari passu with the specified securities issued to the public.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the lock-in period for partly paid-up securities or the utilization of issue proceeds for capital expenditure. Therefore, it is impossible to determine if this specific legal obligation is satisfied.",
+      "evidence": "",
+      "missing_details": "Details on the nature of specified securities (partly paid-up or fully paid-up), amount called-up on such securities, comparison with securities issued to the public, information on the utilization of issue proceeds, and specific lock-in provisions.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 19",
+      "source_clause": "ICDR_2018 Chapter II Unit 19",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "The certificates of specified securities which are subject to lock -in shall contain the inscription \u201cnon -transferable\u201d and specify the lock -in period and in case such specified securities are dematerialised, the issuer shall ensure that the lock -in is recor ded by the depository.",
+      "obligation_text": "The certificates of specified securities which are subject to lock -in shall contain the inscription \u201cnon -transferable\u201d and specify the lock -in period and in case such specified securities are dematerialised, the issuer shall ensure that the lock -in is recor ded by the depository.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information regarding the inscription of 'non-transferable' on certificates of specified securities subject to lock-in, nor does it specify the lock-in period or mention the recording of lock-in by the depository for dematerialised securities. Therefore, the legal obligation is not addressed.",
+      "evidence": "",
+      "missing_details": "Inscription 'non-transferable' on lock-in certificates, specification of lock-in period on certificates, confirmation of lock-in recording by depository for dematerialised securities",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 20",
+      "source_clause": "ICDR_2018 Chapter II Unit 20",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "The certificates of specified securities which are subject to lock -in shall contain the inscription \u201cnon -transferable\u201d and specify the lock -in period.",
+      "obligation_text": "The certificates of specified securities which are subject to lock -in shall contain the inscription \u201cnon -transferable\u201d and specify the lock -in period.",
+      "status": "MISSING",
+      "explanation": "The provided excerpts from the DRHP do not contain any information regarding the inscription of 'non-transferable' and the specification of lock-in periods on certificates of specified securities, nor any mention of depository recording for dematerialized securities subject to lock-in. Therefore, the legal obligation is not addressed.",
+      "evidence": "",
+      "missing_details": "Inscription of 'non-transferable' on certificates of specified securities subject to lock-in, specification of lock-in period on certificates of specified securities subject to lock-in, confirmation of lock-in recording by the depository for dematerialized specified securities subject to lock-in.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        3
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 20",
+      "source_clause": "ICDR_2018 Chapter II Unit 20",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "Specified securities held by the promoters and locked-in may be pledged as a collateral security for a loan granted by a scheduled commercial bank or a public financial institution or a systemically important non-banking finance company or a housing finance company, subject to the following conditions.",
+      "obligation_text": "Specified securities held by the promoters and locked-in may be pledged as a collateral security for a loan granted by a scheduled commercial bank or a public financial institution or a systemically important non-banking finance company or a housing finance company, subject to the following conditions.",
+      "status": "MISSING",
+      "explanation": "The provided excerpts from the DRHP do not contain any information regarding the pledging of specified securities held by promoters as collateral for loans. The text discusses tender processes for government customers and the basis of financial information, but it does not address the specific legal obligation related to promoter share pledges for loans.",
+      "evidence": "",
+      "missing_details": "Details on whether specified securities held by promoters are pledged as collateral for loans, the identity of the lending institutions, the purpose of the loan, and confirmation that the loan is for financing objects of the issue and that the pledge is a sanction term.",
+      "confidence": 1.0,
+      "pages": [
+        1,
+        6
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 21",
+      "source_clause": "ICDR_2018 Chapter II Unit 21",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "If the specified securities are locked-in in terms of clause (a) of regulation 16, the loan has been granted to the issuer company or its subsidiary(ies) for the purpose of financing one or more of the objects of the issue and pledge of specified securities is one of the terms of sanction of the loan.",
+      "obligation_text": "If the specified securities are locked-in in terms of clause (a) of regulation 16, the loan has been granted to the issuer company or its subsidiary(ies) for the purpose of financing one or more of the objects of the issue and pledge of specified securities is one of the terms of sanction of the loan.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP content does not contain any information related to locked-in securities, loans granted to the issuer or its subsidiaries for financing objects of the issue, or the pledge of specified securities as a term of loan sanction. Therefore, the legal obligation is not addressed.",
+      "evidence": "",
+      "missing_details": "Information regarding locked-in securities as per regulation 16(a) or 16(b), details of loans granted to the issuer or its subsidiaries for financing objects of the issue, and confirmation of whether pledge of specified securities is a term of loan sanction.",
+      "confidence": 1.0,
+      "pages": [
+        3,
+        6
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 21",
+      "source_clause": "ICDR_2018 Chapter II Unit 21",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    },
+    {
+      "requirement": "If the specified securities are locked-in in terms of clause (b) of regulation 16 and the pledge of specified securities is one of the terms of sanction of the loan.",
+      "obligation_text": "If the specified securities are locked-in in terms of clause (b) of regulation 16 and the pledge of specified securities is one of the terms of sanction of the loan.",
+      "status": "MISSING",
+      "explanation": "The provided DRHP excerpts do not contain any information related to locked-in securities, pledges, or loan sanctions. Therefore, the legal obligation to verify these aspects cannot be assessed from the given text.",
+      "evidence": "",
+      "missing_details": "Information regarding locked-in securities as per regulation 16(b) or 16(a), details of any loan sanctions where pledge of specified securities was a term, and confirmation of whether such loans were granted to the issuer or its subsidiaries for financing objects of the issue.",
+      "confidence": 1.0,
+      "pages": [
+        1
+      ],
+      "priority": "HIGH",
+      "citation": "ICDR_2018 Chapter II Unit 21",
+      "source_clause": "ICDR_2018 Chapter II Unit 21",
+      "mandatory": true,
+      "chapter": "Chapter II"
+    }
+  ],
+  "nse_queries": [],
+  "chapters_checked": [],
+  "adaptive_expansion": {},
+  "completed_at": "2025-12-31T15:29:02.966378",
+  "processing_time_seconds": 56,
+  "created_at": "2025-12-31T15:28:06.038762"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "job_id": "febcbfc9-e9c5-42fc-a684-4a0725b7bd62",
+  "user_email": "local_user@localhost",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "regulation_type": "ICDR",
+  "use_multi_agent": true,
+  "initial_limit": 30,
+  "document_name": "tri_business.pdf",
+  "local_file_path": "uploads/febcbfc9-e9c5-42fc-a684-4a0725b7bd62/tri_business.pdf",
+  "created_at": "2026-01-04T12:08:21.469115+00:00",
+  "progress": "Processing with NSE-aligned orchestrator (IPO applicability filtering enabled)...",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "neo4j_chapters": [
+    "Chapter II"
+  ],
+  "mandatory_only": true,
+  "started_at": "2026-01-04T12:08:21.469844+00:00",
+  "error": "'FinancialQueryGenerator' object has no attribute '_check_industry_splits'",
+  "error_traceback": "Traceback (most recent call last):\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/main_local.py\", line 302, in process_compliance_check\n    result = multi_agent_orchestrator.check_drhp_compliance(\n        drhp_file_path=file_path,\n    ...<5 lines>...\n        output_format=\"structured\"\n    )\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/multi_agent_orchestrator.py\", line 348, in check_drhp_compliance\n    context_aware_results = self.context_aware_generator.generate_all_queries(\n        context=drhp_context,\n        pages_dict=pages_dict\n    )\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/context_aware_query_generators.py\", line 906, in generate_all_queries\n    results['financial'] = self.financial_generator.generate_queries(context, pages_dict)\n                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/context_aware_query_generators.py\", line 231, in generate_queries\n    queries.extend(self._check_industry_splits(context))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'FinancialQueryGenerator' object has no attribute '_check_industry_splits'. Did you mean: '_check_export_splits'?\n",
+  "completed_at": "2026-01-04T12:09:34.327879+00:00"
+}

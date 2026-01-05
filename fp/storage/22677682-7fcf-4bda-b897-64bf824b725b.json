@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "job_id": "22677682-7fcf-4bda-b897-64bf824b725b",
+  "user_email": "local_user@localhost",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "regulation_type": "ICDR",
+  "use_multi_agent": true,
+  "use_adaptive": true,
+  "initial_limit": 30,
+  "max_total": 100,
+  "document_name": "Eco_fuel_Systems_India_Limited_DRHP.pdf",
+  "local_file_path": "uploads/22677682-7fcf-4bda-b897-64bf824b725b/Eco_fuel_Systems_India_Limited_DRHP.pdf",
+  "created_at": "2025-12-31T14:31:59.943995",
+  "progress": "Checking obligations adaptively (start: 30, max: 100)...",
+  "mode": "MULTI_AGENT_ADAPTIVE",
+  "neo4j_chapters": [
+    "Chapter II"
+  ],
+  "mandatory_only": true,
+  "started_at": "2025-12-31T14:31:59.945143",
+  "error": "cannot import name 'storage' from 'google.cloud' (unknown location)"
+}

@@ -1,0 +1,1146 @@
+{
+  "status": "completed",
+  "job_id": "488c251e-9c9c-4498-a89e-8b938aa9f368",
+  "user_email": "local_user@localhost",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "regulation_type": "ICDR",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "document_name": "tri_business.pdf",
+  "company_name": "Trimoorty Foamtech Limited",
+  "company_profile": {
+    "revenue": 0,
+    "employees": 0,
+    "business_type": "automotive"
+  },
+  "ipo_structure": {
+    "has_convertible_debt": false,
+    "has_warrants": false,
+    "has_secured_instruments": false,
+    "has_sr_shares": false,
+    "has_vc_or_pe": false,
+    "has_employee_equity": false,
+    "mentions_promoter_contribution": false,
+    "mentions_lockin": true,
+    "has_rights_issue": false,
+    "has_qip": false
+  },
+  "nse_queries": [
+    {
+      "type": "nse_content_query",
+      "page": "23 and 26",
+      "observation": "If the narrative mentions the sku count as 2.0 on page 23 but the Table/another section reflects 5.0 on page 26, kindly reconcile the factual contradiction and provide revised draft of the table along with confirmation that the same shall be updated in prospectus",
+      "severity": "Material",
+      "category": "Forensic",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "CROSS_PAGE_INCONSISTENCY",
+      "disclosure_status": "INCONSISTENT",
+      "materiality": "MINOR",
+      "tone": "CRITICAL",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_content_query",
+      "page": "Various",
+      "observation": "In \u201cOur Business\u201d chapter- It is observed that the Company has made use of superlative words / adjectives like \u201cSeasoned\u201d, \u201ccomprehensive\u201d, \u201cexperienced\u201d, \u201cextensive\u201d, \u201chigh-quality\u201d, \u201csignificant\u201d, \u201csuperior\u201d, \u201ctrusted\u201d etc. without citing the source and basis of the same as per the instructions mentioned in Schedule VI of the SEBI (ICDR) Regulations 2018 in relation to forward-looking statements. Kindly provide the source/basis of all such statements/claims. Also include these bases in the Material Documents Chapter available for inspection. If not, kindly review and revise the same. Further, the above mentioned points are merely indicative in nature, the Merchant banker shall vet the offer document and ensure that there are no disclosures which are advertising statements and marketing statement and if there are any it shall be either be drafted in a neutral language or provide a basis for the same or removed, to that end, kindly provide a draft along with a confirmation the same shall be placed at the time of prospectus as applicable",
+      "severity": "Material",
+      "category": "General",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "GENERAL",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "merged_from": 3,
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_content_query",
+      "page": 7,
+      "observation": "[Critical - Operational] Throughout the Chapter (specifically on Page(s) 7), the disclosure states \"With most processes handled in-house, we minimize reliance on third-party vendors\". Quantify the ratio of in-house versus outsourced costs for key manufacturing processes and provide the percentage of total manufacturing cost represented by third-party vendors. Confirm that the revised disclosure shall be updated in the Prospectus. Provide revised draft.",
+      "severity": "Material",
+      "category": "General",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "GENERAL",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "merged_from": 2,
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_content_query",
+      "page": 11,
+      "observation": "[Critical - Operational] Throughout the Chapter (specifically on Page 154), the DRHP describes various product applications including \"air filtration systems\", \"oil filtration\", \"thermal/heat insulation\", \"acoustic/sound insulation\", \"felt parts\", \"angle cutting parts\", \"foam tubing\", \"heat shield/thermal jackets\", and \"aluminium laminated foam parts\". However, there is no explicit mention or quantification of the Company's R&D spend in relation to these product categories, nor is there a 3-year trend analysis of R&D spend as a percentage of revenue. Provide revised draft...",
+      "severity": "Material",
+      "category": "General",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "GENERAL",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "merged_from": 3,
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_content_query",
+      "page": "8",
+      "observation": "On page no. 8, it is mentioned specialized equipment. Kindly elaborate and explain the statement 'Custom Machinery for International Clients'. Clarify the CAPEX and timeline for the same. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "missing_elements": [],
+      "table_present": false,
+      "issue_id": "CUSTOM_MACHINERY_INTERNATIONAL",
+      "disclosure_status": "INADEQUATE",
+      "materiality": "MINOR",
+      "tone": "STANDARD",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "page": "7",
+      "text": "The Company operates in the automotive sector which is covered under various government schemes including PLI for Automobile and Auto Components, FAME scheme, Automotive Mission Plan, AITF (Auto Industry Transformation Fund). Kindly specify the applicability of these schemes to the Company's operations and provide details of benefits availed or expected to be availed. If not applicable, provide rationale. Provide revised draft along with confirmation that the same shall be updated in the prospectus.",
+      "type": "TYPE_POLICY_DISCLOSURE",
+      "issue_id": "GOVT_POLICY_AUTOMOTIVE",
+      "severity": "Material",
+      "category": "Regulatory",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Government and Other Approvals"
+    },
+    {
+      "page": "5",
+      "text": "The Company operates in the toys sector which is covered under various government schemes including National Action Plan for Toys (NAPT), PLI Scheme for toys, Toy clusters, Quality Control Orders for toys. Kindly specify the applicability of these schemes to the Company's operations and provide details of benefits availed or expected to be availed. If not applicable, provide rationale. Provide revised draft along with confirmation that the same shall be updated in the prospectus.",
+      "type": "TYPE_POLICY_DISCLOSURE",
+      "issue_id": "GOVT_POLICY_TOYS",
+      "severity": "Material",
+      "category": "Regulatory",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Government and Other Approvals"
+    },
+    {
+      "page": "14",
+      "text": "The Company operates in the foam sector which is covered under various government schemes including PLI for Textiles (foam products), Production incentives, Environmental compliance schemes. Kindly specify the applicability of these schemes to the Company's operations and provide details of benefits availed or expected to be availed. If not applicable, provide rationale. Provide revised draft along with confirmation that the same shall be updated in the prospectus.",
+      "type": "TYPE_POLICY_DISCLOSURE",
+      "issue_id": "GOVT_POLICY_FOAM",
+      "severity": "Material",
+      "category": "Regulatory",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Government and Other Approvals"
+    },
+    {
+      "page": "7",
+      "text": "On page 7, the Company mentions business partner without providing the name. Kindly provide the complete name of the business partner. Provide revised draft along with confirmation that the same shall be updated in the prospectus.",
+      "type": "TYPE_UNNAMED_ENTITY",
+      "issue_id": "UNNAMED_BUSINESS_PARTNER",
+      "severity": "Material",
+      "category": "Disclosure",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "observation": "",
+      "merged_from": 7,
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "page": "8",
+      "text": "On page 8, the Company mentions supplier without providing the name. Kindly provide the complete name of the supplier. Provide revised draft along with confirmation that the same shall be updated in the prospectus.",
+      "type": "TYPE_UNNAMED_ENTITY",
+      "issue_id": "UNNAMED_SUPPLIER",
+      "severity": "Material",
+      "category": "Disclosure",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "observation": "",
+      "merged_from": 4,
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "page": "9",
+      "text": "On page 9, the Company mentions a foreign distributor without providing the name. Kindly provide the complete name of the distributor and details of the business arrangement. Provide revised draft along with confirmation that the same shall be updated in the prospectus.",
+      "type": "TYPE_UNNAMED_ENTITY",
+      "issue_id": "UNNAMED_DISTRIBUTOR",
+      "severity": "Material",
+      "category": "Disclosure",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_expectation_question",
+      "page": "N/A",
+      "observation": "Provide the evidentiary source for the claim 'nt requirements and best practices. Their expertise helps us anticipate challenges,' and quantify the basis (market data or citation).",
+      "severity": "Material",
+      "category": "Expectation",
+      "locked": true,
+      "issue_id": "superlative_claims_source",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_expectation_question",
+      "page": "N/A",
+      "observation": "Please confirm whether audited financial statements for the last 3 FYs are included and provide reference pages.",
+      "severity": "Material",
+      "category": "Expectation",
+      "locked": true,
+      "issue_id": "audited_financials_provided",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Financial Information"
+    },
+    {
+      "type": "nse_expectation_question",
+      "page": "N/A",
+      "observation": "Provide the RPT summary table for the last 3 FYs including counterparties and amounts, or confirm if none exist.",
+      "severity": "Material",
+      "category": "Expectation",
+      "locked": true,
+      "issue_id": "related_party_transactions_disclosure",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Business Overview"
+    },
+    {
+      "type": "nse_expectation_question",
+      "page": "N/A",
+      "observation": "For risk 'oking statements that involve risks and uncertainties. You should read \u201cForward-Looking', provide specific mitigation steps the company has implemented or plans to implement.",
+      "severity": "Material",
+      "category": "Expectation",
+      "locked": true,
+      "issue_id": "material_risk_coverage",
+      "disclosure_status": "DISCLOSED",
+      "materiality": "MINOR",
+      "tone": "SOFT",
+      "recommended_section": "Risk Factors"
+    },
+    {
+      "type": "contradiction",
+      "page": "2 to 29",
+      "observation": "On page no. 2 to 29, there appears to be a numerical inconsistency regarding FACILITIES. The disclosure mentions conflicting values: 18 vs 31 vs 61 vs 250 vs 309 vs 2025. Kindly reconcile this factual contradiction and provide revised draft along with confirmation that the same shall be updated in the final prospectus.",
+      "severity": "Critical - Valuation",
+      "category": "Forensic",
+      "issue_id": "CONTRADICTION_NUMERIC",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "contradiction_details": {
+        "type": "NUMERIC",
+        "entity": "FACILITIES",
+        "values": [
+          "18",
+          "31",
+          "61",
+          "250",
+          "309",
+          "2025"
+        ]
+      }
+    },
+    {
+      "type": "contradiction",
+      "page": "5 to 25",
+      "observation": "On page no. 5 to 25, there appears to be a numerical inconsistency regarding CUSTOMERS. The disclosure mentions conflicting values: 1 vs 3 vs 4 vs 5 vs 6 vs 7 vs 8 vs 9 vs 10. Kindly reconcile this factual contradiction and provide revised draft along with confirmation that the same shall be updated in the final prospectus.",
+      "severity": "Critical - Valuation",
+      "category": "Forensic",
+      "issue_id": "CONTRADICTION_NUMERIC",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "contradiction_details": {
+        "type": "NUMERIC",
+        "entity": "CUSTOMERS",
+        "values": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      }
+    },
+    {
+      "type": "contradiction",
+      "page": "7 to 27",
+      "observation": "On page no. 7 to 27, there appears to be a numerical inconsistency regarding EMPLOYEES. The disclosure mentions conflicting values: 2 vs 3 vs 10 vs 25 vs 203. Kindly reconcile this factual contradiction and provide revised draft along with confirmation that the same shall be updated in the final prospectus.",
+      "severity": "Critical - Valuation",
+      "category": "Forensic",
+      "issue_id": "CONTRADICTION_NUMERIC",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "contradiction_details": {
+        "type": "NUMERIC",
+        "entity": "EMPLOYEES",
+        "values": [
+          "2",
+          "3",
+          "10",
+          "25",
+          "203"
+        ]
+      }
+    },
+    {
+      "type": "contradiction",
+      "page": "7 to 28",
+      "observation": "On page no. 7 to 28, there appears to be a numerical inconsistency regarding PRODUCTS. The disclosure mentions conflicting values: 1 vs 2 vs 4 vs 6 vs 13 vs 24 vs 26 vs 42 vs 95 vs 100 vs 434 vs 2025. Kindly reconcile this factual contradiction and provide revised draft along with confirmation that the same shall be updated in the final prospectus.",
+      "severity": "Critical - Valuation",
+      "category": "Forensic",
+      "issue_id": "CONTRADICTION_NUMERIC",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "contradiction_details": {
+        "type": "NUMERIC",
+        "entity": "PRODUCTS",
+        "values": [
+          "1",
+          "2",
+          "4",
+          "6",
+          "13",
+          "24",
+          "26",
+          "42",
+          "95",
+          "100",
+          "434",
+          "2025"
+        ]
+      }
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "1",
+      "observation": "On page no. 1, dependency is mentioned: 'based on or derived from our Restated\n          Financial Information included in this Draft Red Herring Pros'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "3",
+      "observation": "On page no. 3, competitive positioning is claimed: 'proprietary brand \u201cKidsland\u201d for which we have obtained a registered trademark'. Kindly provide substantiation: (a) third-party validation/market reports; (b) quantified metrics vs. peers (market share/margins/growth); (c) sustainability of advantage (barriers to entry); and (d) reconciliation with business performance. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_COMPETITIVE_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "COMPETITIVE_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "5",
+      "observation": "On page no. 5, it is claimed: 'allows us to align with growth opportunities in multiple domains'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "5",
+      "observation": "On page no. 5, it is claimed: 'allows us to support both standard and evolving needs, including\n            electric vehicle (EV) applications l'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "5",
+      "observation": "On page no. 5, it is claimed: 'enable us to support clients as they scale production and localize their\n            sourcing strategies'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "5",
+      "observation": "On page no. 5, it is claimed: 'contributing to India\u2019s evolving economic landscape'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "6",
+      "observation": "On page no. 6, it is claimed: 'allows us to address demand in both domestic and export markets'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "6",
+      "observation": "On page no. 6, it is claimed: 'allows us to meet varied requirements, from\n          durable industrial parts and consumer products'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "7",
+      "observation": "On page no. 7, it is claimed: 'allows us to meet different customer needs while maintaining consistent quality and delivery timelines'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "7",
+      "observation": "On page no. 7, it is claimed: 'enables us to engage not only as a\n          manufacturing partner but also as a collaborator in product developme'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "7",
+      "observation": "On page no. 7, it is claimed: 'resulting in improved control over\n          lead times and output quality'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "8",
+      "observation": "On page no. 8, the disclosure mentions: 'aim to reduce\n          dependence on imports and encourage local production across'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "8",
+      "observation": "On page no. 8, the disclosure mentions: 'plan to invest in product\n          development'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "8",
+      "observation": "On page no. 8, the disclosure mentions: 'will help us build consumer engagement and foster long'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "8",
+      "observation": "On page no. 8, it is claimed: 'allows us to achieve\n          quick scale and efficient utilization of our facilities'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "8",
+      "observation": "On page no. 8, it is claimed: 'enables us to produce a variety of safe, durable,\n          and precision-shaped toys, especially in the non-elect'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "8",
+      "observation": "On page no. 8, competitive positioning is claimed: 'proprietary toy brand i'. Kindly provide substantiation: (a) third-party validation/market reports; (b) quantified metrics vs. peers (market share/margins/growth); (c) sustainability of advantage (barriers to entry); and (d) reconciliation with business performance. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_COMPETITIVE_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "COMPETITIVE_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'will be used to expand our\n          manufacturing capacity in these'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'will include acquiring custom machinery suited to the specific needs'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'will enhance our ability to deli\n                \n          Part of our expansion'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'will support our role as a flexible and capable manufacturing'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'plan to invest in\n          automation across various stages of our manufacturing'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'intend to adopt CNC based automated die'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'aim to introduce vision'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'aim to strengthen our position in the supply chain\n          for engineered'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'will help convert these raw materials into ready'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, the disclosure mentions: 'will also engage in targeted marketing efforts'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, it is claimed: 'allows us to offer integrated component solutions by combining these materials with our existing\n          capabi'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, it is claimed: 'enables us to provide components such as\n          protective pads, thermal barriers, gaskets, and structural inse'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "9",
+      "observation": "On page no. 9, dependency is mentioned: 'essential for manufacturing foam components, particularly for automotive and other\n          high-precision applic'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "10",
+      "observation": "On page no. 10, the disclosure mentions: 'aim to support manufacturers with guidance on\n          suitable foam material and'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "10",
+      "observation": "On page no. 10, the disclosure mentions: 'aim to minimize unwanted noise'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "13",
+      "observation": "On page no. 13, dependency is mentioned: 'based on the\n            defined process parameters'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "15",
+      "observation": "On page no. 15, dependency is mentioned: 'based on Q-Alert standards'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "16",
+      "observation": "On page no. 16, dependency is mentioned: 'based on Customer-Specific Requirements (CSR)'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "17",
+      "observation": "On page no. 17, the disclosure mentions: 'plan to ensure batch quality'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "17",
+      "observation": "On page no. 17, dependency is mentioned: 'based on a defined\n          sampling plan to ensure batch quality'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "18",
+      "observation": "On page no. 18, dependency is mentioned: 'based on customer-required thickness'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "20",
+      "observation": "On page no. 20, dependency is mentioned: 'based on various\n              \n                                                                   \n         '. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "22",
+      "observation": "On page no. 22, dependency is mentioned: 'based on purchase orders and we do not have any purchase agreements\n          or firm commitments executed wi'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "24",
+      "observation": "On page no. 24, dependency is mentioned: 'based on a combination of confirmed and expected orders based on past trends'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "26",
+      "observation": "On page no. 26, dependency is mentioned: 'based on distance, urgency, and shipment type, own vehicles are used for short distances and urgent or sensit'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "27",
+      "observation": "On page no. 27, it is claimed: 'helps us to get repeat orders from our\n          existing customers and also get an opportunity to serve new cus'. Kindly quantify this benefit by providing: (a) historical evidence (\u20b9/% contribution in past 3 years); (b) reconciliation with financial statements showing this benefit; (c) peer comparison (whether similar benefits available to competitors); and (d) forward-looking quantification if material. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_BENEFIT_CLAIM",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "BENEFIT_CLAIM"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "28",
+      "observation": "On page no. 28, the disclosure mentions: 'will continue to comply'. Kindly provide: (a) quantified rationale (\u20b9/% impact on revenue/profitability expected in next 3 years); (b) concrete timeline with milestones; (c) capital allocation and source of funds; and (d) a corresponding Risk Factor if execution depends on market conditions or regulatory approvals. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_STRATEGIC_INTENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "STRATEGIC_INTENT"
+    },
+    {
+      "type": "purpose_interrogation",
+      "page": "28",
+      "observation": "On page no. 28, dependency is mentioned: 'necessary for us to carry on our business'. Kindly disclose: (a) % of revenue/operations dependent on this factor; (b) historical instances of disruption (if any) and quantified impact; (c) mitigation measures with timeline and cost; and (d) a specific Risk Factor. Provide revised draft.",
+      "severity": "Material",
+      "category": "Operational",
+      "issue_id": "PURPOSE_DEPENDENCY_STATEMENT",
+      "regulation_ref": "ICDR Regulations - General Disclosure Standards",
+      "interrogation_category": "DEPENDENCY_STATEMENT"
+    },
+    {
+      "type": "hygiene",
+      "page": "1",
+      "observation": "On page no. 1, acronym(s) 'EVA, OUR, PU' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "2",
+      "observation": "On page no. 2, footnote symbol '*' appears unreferenced. Kindly ensure all footnotes are properly cross-referenced (both in-text reference and footnote definition). Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "FOOTNOTE_MISMATCH",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "2",
+      "observation": "On page no. 2, footnote symbol '#' appears unreferenced. Kindly ensure all footnotes are properly cross-referenced (both in-text reference and footnote definition). Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "FOOTNOTE_MISMATCH",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "2",
+      "observation": "On page no. 2, acronym(s) 'EVA, MTPA, II' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "2",
+      "observation": "On page no. 2, numeric formatting appears inconsistent (both comma-separated and non-separated formats detected in tables/text). Kindly ensure uniform number formatting across all tables and disclosures. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "INCONSISTENT_NUMBER_FORMAT",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "3",
+      "observation": "On page no. 3, acronym(s) 'EBITDA, KEY, EVA' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "3",
+      "observation": "On page no. 3, numeric formatting appears inconsistent (both comma-separated and non-separated formats detected in tables/text). Kindly ensure uniform number formatting across all tables and disclosures. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "INCONSISTENT_NUMBER_FORMAT",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "4",
+      "observation": "On page no. 4, footnote symbol '*365' appears unreferenced. Kindly ensure all footnotes are properly cross-referenced (both in-text reference and footnote definition). Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "FOOTNOTE_MISMATCH",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "4",
+      "observation": "On page no. 4, acronym(s) 'EBITDA, EPS, PAT' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "4",
+      "observation": "On page no. 4, numeric formatting appears inconsistent (both comma-separated and non-separated formats detected in tables/text). Kindly ensure uniform number formatting across all tables and disclosures. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "INCONSISTENT_NUMBER_FORMAT",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "5",
+      "observation": "On page no. 5, acronym(s) 'OUR, EV' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "6",
+      "observation": "On page no. 6, acronym(s) 'PU, EVA, ICE' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "6",
+      "observation": "On page no. 6, numeric formatting appears inconsistent (both comma-separated and non-separated formats detected in tables/text). Kindly ensure uniform number formatting across all tables and disclosures. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "INCONSISTENT_NUMBER_FORMAT",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "7",
+      "observation": "On page no. 7, acronym(s) 'ISO, EVA, PU' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "8",
+      "observation": "On page no. 8, acronym(s) 'BIS, EVA, OUR' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "9",
+      "observation": "On page no. 9, acronym(s) 'EVA, PU, OEM' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "10",
+      "observation": "On page no. 10, acronym(s) 'PU, HVAC, NVH' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "11",
+      "observation": "On page no. 11, acronym(s) 'HVAC, NVH, EVA' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "12",
+      "observation": "On page no. 12, acronym(s) 'HVAC, GIN, FG' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "13",
+      "observation": "On page no. 13, acronym(s) 'PU, FIFO' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "14",
+      "observation": "On page no. 14, acronym(s) 'ISO, MSDS, DOW' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "15",
+      "observation": "On page no. 15, acronym(s) 'FG, PE' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "16",
+      "observation": "On page no. 16, acronym(s) 'FIFO, GIN, PE' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "17",
+      "observation": "On page no. 17, acronym(s) 'EVA, GIN' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "18",
+      "observation": "On page no. 18, acronym(s) 'EVA, VA' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "19",
+      "observation": "On page no. 19, acronym(s) 'DTF, II, III' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "20",
+      "observation": "On page no. 20, acronym(s) 'EVA, II, PU' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "20",
+      "observation": "On page no. 20, numeric formatting appears inconsistent (both comma-separated and non-separated formats detected in tables/text). Kindly ensure uniform number formatting across all tables and disclosures. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "INCONSISTENT_NUMBER_FORMAT",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "21",
+      "observation": "On page no. 21, acronym(s) 'UNITS, II, OUR' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "hygiene",
+      "page": "22",
+      "observation": "On page no. 22, acronym(s) 'ISO, EVA, PU' appear without definition. Kindly provide full form on first occurrence or in glossary/abbreviations section. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Drafting Quality",
+      "issue_id": "UNDEFINED_ACRONYM",
+      "regulation_ref": "SEBI Circular on DRHP Format"
+    },
+    {
+      "type": "industry_split",
+      "page": "1",
+      "observation": "Refer to page 1 of the DRHP and provide/include details of breakup of industry-wise revenue from operations split for the DRHP period including Automotive, Construction, Toys, Appliances, Farm Equipment, etc. Provide this in tabular format showing \u20b9 and % contribution for past 3 FYs and stub period.",
+      "severity": "Material",
+      "category": "Financial",
+      "issue_id": "INDUSTRY_REVENUE_SPLIT",
+      "regulation_ref": "ICDR Regulations - Financial Disclosure"
+    },
+    {
+      "type": "trademark_details",
+      "page": "1",
+      "observation": "Refer to the trademark details in business chapter, kindly include the registration number, registration date, and validity period details for all trademarks in the DRHP. Provide this in tabular format showing: (a) Trademark name; (b) Class; (c) Registration No.; (d) Registration date; (e) Validity till; and (f) Territory. Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Legal",
+      "issue_id": "TRADEMARK_DETAILS",
+      "regulation_ref": "ICDR Regulations - Legal Disclosure"
+    },
+    {
+      "type": "property_area",
+      "page": "2 to 30",
+      "observation": "Refer to the property section on page 2 to 30, kindly include the area details (i.e. sq.ft., sq. meters, acres etc.) for all properties (owned and leased). Provide this in the property table along with: (a) built-up area; (b) land area; (c) unit of measurement; and (d) usage (manufacturing/office/warehouse). Provide revised draft.",
+      "severity": "Hygiene",
+      "category": "Legal",
+      "issue_id": "PROPERTY_AREA_DETAILS",
+      "regulation_ref": "ICDR Regulations - Property Disclosure"
+    },
+    {
+      "type": "omission",
+      "page": "27",
+      "observation": "Refer to page 27, kindly provide rationale for not including certain revenue segments (e.g., consumer durables, appliances, etc.) details in the competition section, if these segments contribute materially to revenue. If these segments are not material, provide disclosure confirming the same. Provide revised draft.",
+      "severity": "Material",
+      "category": "Omission",
+      "issue_id": "COMPETITION_OMISSION",
+      "regulation_ref": "ICDR Regulations - Completeness"
+    },
+    {
+      "type": "statement_interrogation",
+      "page": "8",
+      "observation": "Elaborate and explain the statement: 'we plan to invest in product development (including R&D, safety testing, and packaging design), branding (visual identity, storytelling, and intell...'. Refer page 8 of the DRHP. Kindly provide: (a) detailed implementation plan with timeline; (b) capital allocation (\u20b9) and source of funds; (c) expected quantified benefits (\u20b9/% on revenue/margins); (d) risks and mitigation; and (e) corresponding Risk Factor if dependent on external approvals/market conditions. Provide revised draft.",
+      "severity": "Material",
+      "category": "Strategic",
+      "issue_id": "STATEMENT_ELABORATION",
+      "regulation_ref": "ICDR Regulations - Forward-Looking Statements"
+    },
+    {
+      "type": "statement_interrogation",
+      "page": "9",
+      "observation": "Elaborate and explain the statement: 'Part of our expansion will include acquiring custom machinery suited to the specific needs of our global customers. This equipment will enhance our...'. Refer page 9 of the DRHP. Kindly provide: (a) detailed implementation plan with timeline; (b) capital allocation (\u20b9) and source of funds; (c) expected quantified benefits (\u20b9/% on revenue/margins); (d) risks and mitigation; and (e) corresponding Risk Factor if dependent on external approvals/market conditions. Provide revised draft.",
+      "severity": "Material",
+      "category": "Strategic",
+      "issue_id": "STATEMENT_ELABORATION",
+      "regulation_ref": "ICDR Regulations - Forward-Looking Statements"
+    },
+    {
+      "type": "statement_interrogation",
+      "page": "9",
+      "observation": "Elaborate and explain the statement: 'we plan to invest in automation across various stages of our manufacturing operations'. Refer page 9 of the DRHP. Kindly provide: (a) detailed implementation plan with timeline; (b) capital allocation (\u20b9) and source of funds; (c) expected quantified benefits (\u20b9/% on revenue/margins); (d) risks and mitigation; and (e) corresponding Risk Factor if dependent on external approvals/market conditions. Provide revised draft.",
+      "severity": "Material",
+      "category": "Strategic",
+      "issue_id": "STATEMENT_ELABORATION",
+      "regulation_ref": "ICDR Regulations - Forward-Looking Statements"
+    },
+    {
+      "type": "statement_interrogation",
+      "page": "9",
+      "observation": "Elaborate and explain the statement: 'we plan to invest in automation across various stages of our manufacturing operations'. Refer page 9 of the DRHP. Kindly provide: (a) detailed implementation plan with timeline; (b) capital allocation (\u20b9) and source of funds; (c) expected quantified benefits (\u20b9/% on revenue/margins); (d) risks and mitigation; and (e) corresponding Risk Factor if dependent on external approvals/market conditions. Provide revised draft.",
+      "severity": "Material",
+      "category": "Strategic",
+      "issue_id": "STATEMENT_ELABORATION",
+      "regulation_ref": "ICDR Regulations - Forward-Looking Statements"
+    },
+    {
+      "type": "statement_interrogation",
+      "page": "9",
+      "observation": "Elaborate and explain the statement: 'Custom Machinery for International Clients: Part of our expansion will include acquiring custom machinery suited to the specific n'. Refer page 9 of the DRHP. Kindly provide: (a) detailed implementation plan with timeline; (b) capital allocation (\u20b9) and source of funds; (c) expected quantified benefits (\u20b9/% on revenue/margins); (d) risks and mitigation; and (e) corresponding Risk Factor if dependent on external approvals/market conditions. Provide revised draft.",
+      "severity": "Material",
+      "category": "Strategic",
+      "issue_id": "STATEMENT_ELABORATION",
+      "regulation_ref": "ICDR Regulations - Forward-Looking Statements"
+    }
+  ],
+  "nse_engine_gemini_enabled": true,
+  "total_queries": 103,
+  "internal_stats": {
+    "total_checked": 0,
+    "total_skipped": 0,
+    "exhaustive_searches": 0
+  },
+  "total_requirements": 103,
+  "summary": {
+    "total": 103,
+    "Major": 0,
+    "Observation": 0,
+    "Clarification": 0
+  },
+  "completed_at": "2026-01-04T06:04:32.735606+00:00",
+  "processing_time_seconds": 65,
+  "created_at": "2026-01-04T06:03:26.975294+00:00"
+}

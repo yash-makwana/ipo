@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "job_id": "20b99392-a883-4b8d-936a-e8e2fdd7637b",
+  "user_email": "local_user@localhost",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "regulation_type": "ICDR",
+  "use_multi_agent": true,
+  "initial_limit": 30,
+  "document_name": "tri_business.pdf",
+  "local_file_path": "uploads/20b99392-a883-4b8d-936a-e8e2fdd7637b/tri_business.pdf",
+  "created_at": "2026-01-04T07:13:53.509454+00:00",
+  "progress": "Processing with NSE-aligned orchestrator (IPO applicability filtering enabled)...",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "neo4j_chapters": [
+    "Chapter II"
+  ],
+  "mandatory_only": true,
+  "started_at": "2026-01-04T07:13:53.510621+00:00",
+  "error": "could not convert string to float: ''",
+  "error_traceback": "Traceback (most recent call last):\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/main_local.py\", line 302, in process_compliance_check\n    result = multi_agent_orchestrator.check_drhp_compliance(\n        drhp_file_path=file_path,\n    ...<5 lines>...\n        output_format=\"structured\"\n    )\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/multi_agent_orchestrator.py\", line 286, in check_drhp_compliance\n    nse_queries = self._run_nse_content_review(\n        document_chunks=document_chunks,\n    ...<3 lines>...\n        drhp_file_path=drhp_file_path\n    )\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/multi_agent_orchestrator.py\", line 587, in _run_nse_content_review\n    yoy_queries = self.yoy_detector.detect_declines(pages_dict)\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/yoy_decline_detector.py\", line 62, in detect_declines\n    comparisons = self._extract_comparisons(text)\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/yoy_decline_detector.py\", line 134, in _extract_comparisons\n    value_curr = float(val_curr_str)\nValueError: could not convert string to float: ''\n",
+  "completed_at": "2026-01-04T07:15:02.490842+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "job_id": "9e9a2ef6-ddf9-4e85-9490-ebed915954e0",
+  "user_email": "local_user@localhost",
+  "drhp_chapter": "CHAPTER_V_ABOUT_COMPANY",
+  "drhp_chapter_name": "CHAPTER V \u2013 ABOUT THE COMPANY",
+  "regulation_type": "ICDR",
+  "use_multi_agent": true,
+  "initial_limit": 30,
+  "document_name": "tri_business.pdf",
+  "local_file_path": "uploads/9e9a2ef6-ddf9-4e85-9490-ebed915954e0/tri_business.pdf",
+  "created_at": "2026-01-04T07:29:21.877730+00:00",
+  "progress": "Processing with NSE-aligned orchestrator (IPO applicability filtering enabled)...",
+  "mode": "NSE_ALIGNED_PRODUCTION",
+  "neo4j_chapters": [
+    "Chapter II"
+  ],
+  "mandatory_only": true,
+  "started_at": "2026-01-04T07:29:21.879106+00:00",
+  "error": "'OperationalQueryGenerator' object has no attribute '_check_gov_policy_benefits'",
+  "error_traceback": "Traceback (most recent call last):\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/main_local.py\", line 302, in process_compliance_check\n    result = multi_agent_orchestrator.check_drhp_compliance(\n        drhp_file_path=file_path,\n    ...<5 lines>...\n        output_format=\"structured\"\n    )\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/multi_agent_orchestrator.py\", line 348, in check_drhp_compliance\n    context_aware_results = self.context_aware_generator.generate_all_queries(\n        context=drhp_context,\n        pages_dict=pages_dict\n    )\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/context_aware_query_generators.py\", line 852, in generate_all_queries\n    results['operational'] = self.operational_generator.generate_queries(context)\n                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"/Users/yashmakwana/Documents/ipo-compliance-backend/context_aware_query_generators.py\", line 335, in generate_queries\n    queries.extend(self._check_gov_policy_benefits(context))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'OperationalQueryGenerator' object has no attribute '_check_gov_policy_benefits'\n",
+  "completed_at": "2026-01-04T07:30:30.866504+00:00"
+}
