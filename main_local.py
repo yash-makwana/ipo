@@ -464,5 +464,5 @@ if __name__ == '__main__':
     print(f"   ✅ Table Detection & Enforcement")
     print(f"   ✅ Dynamic Severity Escalation")
     print(f"{'='*80}\n")
-    
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+    #app.run(host='0.0.0.0', port=port, debug=True)
